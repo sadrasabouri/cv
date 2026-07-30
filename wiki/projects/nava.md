@@ -8,7 +8,7 @@ domain: speech
 ---
 
 **Role:** Lead developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Plays sound in Python with no dependencies and no platform restrictions — cross-platform
 across Windows, macOS, and Linux. Lightweight and easy to drop into a program.
@@ -16,10 +16,10 @@ across Windows, macOS, and Linux. Lightweight and easy to drop into a program.
 **Adoption:** 30k+ downloads. Recognized on the **Real Python podcast** as one of the host's
 favorite libraries of the week.
 
-**Funding:** [[../honors-and-awards/psf-grant-nava]] — PSF grant for OS-based sound engines (Mar 2025).
+**Funding:** [[../honors-and-awards/psf-grant-nava|PSF Software Development Grant — Nava]] — PSF grant for OS-based sound engines (Mar 2025).
 
 ## Links
 [GitHub](https://github.com/openscilab/nava/) · [PyPI](http://pepy.tech/project/nava)
 
 ## Related
-[[sharif-wav2vec2]] — the other audio-domain work.
+[[sharif-wav2vec2|Sharif-Wav2Vec2.0 — Farsi Speech Recognition Model]] — the other audio-domain work.

@@ -14,5 +14,5 @@ Taught a session on natural language processing and speech processing.
 > No year on file. Worth filling in.
 
 ## Related
-[[../education/sharif-bsc-eecs]] — the degree at the same institution.
-[[../research-experience/sharif-slp-lab]] — the lab the material came from.
+[[../education/sharif-bsc-eecs|Bachelor of Electrical Engineering and Computer Science — Sharif University of Technology]] — the degree at the same institution.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — the lab the material came from.

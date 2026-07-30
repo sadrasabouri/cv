@@ -17,5 +17,5 @@ a research prototype of the strategic game **Diplomacy**, with and without refle
 interventions.
 
 ## Related
-[[../research-experience/ace-lab-ai-decision-making]] — the research thread.
-[[advice-styles-contemplation]] — companion study on how advice is styled rather than interrupted.
+[[../research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — the research thread.
+[[advice-styles-contemplation|Did You Think This Through?: Effect of Varying Advice Styles on Users' Performance and Contemplation]] — companion study on how advice is styled rather than interrupted.

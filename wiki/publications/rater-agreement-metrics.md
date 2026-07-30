@@ -15,5 +15,5 @@ Survey of rater agreement metrics, written to give PyCM users a clearer basis fo
 among them — part of the effort to make open-source evaluation tooling self-documenting.
 
 ## Related
-[[../projects/pycm]] — the library this report supports.
-[[../profile/open-source-philosophy]] — reproducible-practice reports as a deliberate output.
+[[../projects/pycm|PyCM — Multi-Class Confusion Matrix Library]] — the library this report supports.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — reproducible-practice reports as a deliberate output.

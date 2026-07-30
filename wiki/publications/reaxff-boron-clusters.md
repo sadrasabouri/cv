@@ -24,5 +24,5 @@ icosahedral boron for semiconductors and energy storage.
 [GitHub](https://github.com/ECSIM/dbfc-dataset)
 
 ## Related
-[[dbfc-dataset]] — earlier chemistry collaboration.
-[[representative-sample-size-ks]] — same first author.
+[[dbfc-dataset|Experimental Dataset of Electrochemical Efficiency of a Direct Borohydride Fuel Cell (DBFC)]] — earlier chemistry collaboration.
+[[representative-sample-size-ks|Representative Sample Size for Estimating Saturated Hydraulic Conductivity via Machine Learning]] — same first author.

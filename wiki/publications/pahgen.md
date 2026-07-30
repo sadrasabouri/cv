@@ -21,4 +21,4 @@ parallel English–Pahlavi texts**.
 [Paper](https://aclanthology.org/2025.loresmt-1.16.pdf)
 
 ## Related
-[[parsipy]] — same team, historical Persian toolkit.
+[[parsipy|ParsiPy: NLP Toolkit for Historical Persian Texts in Python]] — same team, historical Persian toolkit.

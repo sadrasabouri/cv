@@ -24,5 +24,5 @@ evaluated with an equivalent-circuit model of the cell.
 [GitHub](https://github.com/ECSIM/dbfc-dataset)
 
 ## Related
-[[../projects/opem]] — fuel cell simulation tooling from the same ECSIM context.
-[[reaxff-boron-clusters]] — later boron chemistry work.
+[[../projects/opem|OPEM — Open Source PEM Fuel Cell Simulation Tool]] — fuel cell simulation tooling from the same ECSIM context.
+[[reaxff-boron-clusters|ReaxFF Parameter Set for Boron Clusters and Icosahedral Boron Crystals]] — later boron chemistry work.

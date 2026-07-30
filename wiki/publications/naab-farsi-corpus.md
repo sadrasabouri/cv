@@ -21,5 +21,5 @@ from the Farsi word *naab*, meaning pure and high-grade.
 [Data](https://huggingface.co/datasets/SLPL/naab)
 
 ## Related
-[[../projects/naab]] — the corpus artifact itself, used to train the first Farsi T5 models.
-[[../research-experience/sharif-slp-lab]] — where it was built.
+[[../projects/naab|naab — Farsi Text Corpus]] — the corpus artifact itself, used to train the first Farsi T5 models.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — where it was built.

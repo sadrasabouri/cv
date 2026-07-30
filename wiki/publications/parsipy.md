@@ -20,4 +20,4 @@ embeddings over historical Persian.
 [Paper](https://aclanthology.org/2025.alp-1.17.pdf)
 
 ## Related
-[[pahgen]] — same team, adjacent problem in Pahlavi.
+[[pahgen|PahGen: Generating Ancient Pahlavi Text via Grammar-Guided Zero-Shot Translation]] — same team, adjacent problem in Pahlavi.

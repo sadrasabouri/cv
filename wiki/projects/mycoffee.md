@@ -7,7 +7,7 @@ domain: hci
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 A community-based coffee recipe CLI application. Well received by the programming community on
 social networks, notably Reddit.
@@ -17,4 +17,4 @@ social networks, notably Reddit.
 > web page. Worth filling in.
 
 ## Related
-[[mytimer]] · [[nafas]] — sibling terminal quality-of-life tools.
+[[mytimer|MyTimer — A Timer for Command Line Enthusiasts]] · [[nafas|Nafas — Breathing Gymnastics Application]] — sibling terminal quality-of-life tools.

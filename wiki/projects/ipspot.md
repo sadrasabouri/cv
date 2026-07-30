@@ -8,7 +8,7 @@ domain: network
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Retrieves the system's IP address and location information. Supports public and private IPv4
 and IPv6 detection across multiple API providers, with a fallback mechanism for reliability.
@@ -17,4 +17,4 @@ and IPv6 detection across multiple API providers, with a fallback mechanism for 
 [GitHub](https://github.com/openscilab/ipspot) · [PyPI](http://pepy.tech/project/ipspot)
 
 ## Related
-[[pyrgg]] — sibling network-domain tool.
+[[pyrgg|PyRGG — Python Random Graph Generator]] — sibling network-domain tool.

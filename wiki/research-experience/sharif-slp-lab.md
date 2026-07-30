@@ -18,13 +18,13 @@ Kaldi x-vectors, and Coqui TTS. Collected and preprocessed Persian speech datase
 models for Farsi-specific linguistic features, and optimized across diverse acoustic
 conditions. All models, training scripts, and benchmarks released openly to address the
 scarcity of Farsi resources. Culminated in
-[[../publications/speech-recognition-review]] and [[../projects/sharif-wav2vec2]].
+[[../publications/speech-recognition-review|A Review of the Recent Speech Recognition Methods]] and [[../projects/sharif-wav2vec2|Sharif-Wav2Vec2.0 — Farsi Speech Recognition Model]].
 
 **Farsi text.** Led development of a large-scale Farsi corpus used to train the **first T5
 models for Farsi**, and worked as second author on data augmentation for Farsi question
 answering and document-grounded dialogue. This became the bachelor's thesis, published as
-[[../publications/docalog]] and [[../publications/naab-farsi-corpus]].
+[[../publications/docalog|Docalog: Multi-Document Dialogue System Using Transformer-Based Span Retrieval]] and [[../publications/naab-farsi-corpus|naab: A Ready-to-Use Plug-and-Play Corpus for Farsi]].
 
 ## Related
-[[../education/sharif-bsc-eecs]] — the concurrent degree.
-[[../publications/syntran-fa]] — later output from the same QA line.
+[[../education/sharif-bsc-eecs|Bachelor of Electrical Engineering and Computer Science — Sharif University of Technology]] — the concurrent degree.
+[[../publications/syntran-fa|SynTran-fa: Generating Comprehensive Answers for Farsi QA Pairs via Syntactic Transformation]] — later output from the same QA line.

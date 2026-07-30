@@ -20,5 +20,5 @@ debugging, and could make development more collaborative.
 [Paper](https://arxiv.org/pdf/2508.07966)
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering]] — the research thread.
-[[cognitive-biases-llm-programming]] — parallel study on the same population.
+[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — the research thread.
+[[cognitive-biases-llm-programming|Cognitive Biases in LLM-Assisted Software Development]] — parallel study on the same population.

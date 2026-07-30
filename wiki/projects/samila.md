@@ -8,7 +8,7 @@ domain: art
 ---
 
 **Role:** Creator / co-developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 A Python prototyping tool for artists: creates images by randomly permuting thousands of
 points, each positioned by a formula with random parameters.
@@ -20,5 +20,5 @@ NFT communities, with multiple community YouTube tutorials within the first thre
 [GitHub](https://github.com/sepandhaghighi/samila) · [PyPI](http://pepy.tech/project/samila)
 
 ## Related
-[[../publications/samila]] — the paper.
-[[art]] — sibling creative tool.
+[[../publications/samila|Samila: A Generative Art Generator]] — the paper.
+[[art|Art — ASCII Art Library for Python]] — sibling creative tool.

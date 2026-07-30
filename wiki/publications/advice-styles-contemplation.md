@@ -23,5 +23,5 @@ user performance, confidence, and engagement.
 > the venue of record.
 
 ## Related
-[[../research-experience/ace-lab-ai-decision-making]] — the research thread.
-[[prompting-reflection]] — companion study on interrupting rather than styling.
+[[../research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — the research thread.
+[[prompting-reflection|Prompting Reflection: Encouraging Users to Critically Evaluate AI Suggestions]] — companion study on interrupting rather than styling.

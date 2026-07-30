@@ -15,11 +15,11 @@ Primary research home for the PhD. Work is organized into three threads, each wi
 page. Portions of the software-engineering thread were funded by the **Amazon AGI Center**.
 
 ## Threads
-[[ace-lab-human-ai-software-engineering]] — how developers trust and work with code agents.
-[[ace-lab-ai-decision-making]] — how AI presentation shapes decisions.
-[[ace-lab-ai-for-education]] — how AI explains things to people of differing expertise.
+[[ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — how developers trust and work with code agents.
+[[ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — how AI presentation shapes decisions.
+[[ace-lab-ai-for-education|Thread: AI for Education]] — how AI explains things to people of differing expertise.
 
 ## Related
-[[../profile/research-agenda]] — the question these threads serve.
-[[../references/souti-chattopadhyay]] — PI.
-[[cute-lab-name]] — the secondary lab affiliation.
+[[../profile/research-agenda|Research Agenda]] — the question these threads serve.
+[[../references/souti-chattopadhyay|Souti Chattopadhyay]] — PI.
+[[cute-lab-name|USC ISI — CUTE LAB NAME]] — the secondary lab affiliation.

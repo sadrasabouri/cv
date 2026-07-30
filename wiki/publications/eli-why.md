@@ -22,5 +22,5 @@ GPT-4 explanations matched their intended grade level only **50% of the time** a
 [Data](https://huggingface.co/collections/INK-USC/eli-why-6849086c86556f7a2dd7c686)
 
 ## Related
-[[../research-experience/ace-lab-ai-for-education]] — the research thread.
-[[../profile/research-agenda]] — covers the "users from different knowledge backgrounds" domain.
+[[../research-experience/ace-lab-ai-for-education|Thread: AI for Education]] — the research thread.
+[[../profile/research-agenda|Research Agenda]] — covers the "users from different knowledge backgrounds" domain.

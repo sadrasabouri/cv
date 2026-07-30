@@ -13,5 +13,5 @@ A development micro-grant to build an accessible RESTful API for PyCM, making th
 usable by people not fluent in Python during the ML evaluation phase.
 
 ## Related
-[[../projects/pycm]] — the funded project.
-[[nlnet-grant-pycm]] — the other PyCM grant.
+[[../projects/pycm|PyCM — Multi-Class Confusion Matrix Library]] — the funded project.
+[[nlnet-grant-pycm|NLnet Foundation Grant — PyCM]] — the other PyCM grant.

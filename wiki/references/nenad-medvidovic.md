@@ -9,4 +9,4 @@ tags: [usc, software-engineering]
 **Relationship:** Co-author on the trust dynamics study
 
 ## Related
-[[../publications/trust-dynamics-ai-assisted-development]] — the shared paper.
+[[../publications/trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]] — the shared paper.

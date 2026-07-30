@@ -19,4 +19,4 @@ irreproducible without its seed.
 [Paper](https://arxiv.org/pdf/2504.04298)
 
 ## Related
-[[../projects/samila]] — the library, its adoption, and the Web3/NFT reception.
+[[../projects/samila|Samila — Generative Art Generator]] — the library, its adoption, and the Web3/NFT reception.

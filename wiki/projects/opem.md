@@ -19,4 +19,4 @@ cell parameters such as active area and membrane thickness.
 [GitHub](https://github.com/ECSIM/opem) · [PyPI](http://pepy.tech/project/opem)
 
 ## Related
-[[../publications/dbfc-dataset]] — fuel cell dataset from the same ECSIM context.
+[[../publications/dbfc-dataset|Experimental Dataset of Electrochemical Efficiency of a Direct Borohydride Fuel Cell (DBFC)]] — fuel cell dataset from the same ECSIM context.

@@ -15,4 +15,4 @@ Presented [Memor](https://github.com/openscilab/memor) — managing and transfer
 conversational memory across LLMs.
 
 ## Related
-[[../projects/memor]] — the project presented.
+[[../projects/memor|Memor — Conversational Memory Across LLMs]] — the project presented.

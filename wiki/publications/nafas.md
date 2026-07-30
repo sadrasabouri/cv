@@ -15,4 +15,4 @@ Technical report on Nafas, a set of breathing exercises for people at a computer
 hours, paired with user studies on its effect.
 
 ## Related
-[[../projects/nafas]] — the tool itself.
+[[../projects/nafas|Nafas — Breathing Gymnastics Application]] — the tool itself.

@@ -14,4 +14,4 @@ tags: [nlp, persian, vlm, benchmark, multimodal]
 A benchmark evaluating vision-language models on Persian multi-modal tasks.
 
 ## Related
-[[parsipy]] — adjacent Persian-language tooling work.
+[[parsipy|ParsiPy: NLP Toolkit for Historical Persian Texts in Python]] — adjacent Persian-language tooling work.

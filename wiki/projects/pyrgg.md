@@ -8,7 +8,7 @@ domain: network
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Synthesizes random graphs for network simulation. Supports multiple graph file formats
 including DIMACS-Graph, and generates graphs at various sizes via Erdős–Rényi–Gilbert,
@@ -21,4 +21,4 @@ for generating synthetic data in social network simulations.
 [GitHub](https://github.com/sepandhaghighi/pyrgg) · [PyPI](http://pepy.tech/project/pyrgg)
 
 ## Related
-[[ipspot]] — sibling network-domain tool.
+[[ipspot|IPSpot — System IP Address Fetcher]] — sibling network-domain tool.

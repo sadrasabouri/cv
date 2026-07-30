@@ -19,5 +19,5 @@ safety, and transparency problems. PyMilo serializes models into a transparent,
 [Paper](https://joss.theoj.org/papers/10.21105/joss.08858)
 
 ## Related
-[[../projects/pymilo]] — the library itself.
-[[../profile/open-source-philosophy]] — the clearest instance of the transparency argument.
+[[../projects/pymilo|PyMilo — Python Library for ML I/O]] — the library itself.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — the clearest instance of the transparency argument.

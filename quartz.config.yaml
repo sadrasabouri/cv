@@ -11,6 +11,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - log.md
   defaultDateType: modified
   theme:
     fontOrigin: googleFonts
@@ -126,6 +127,23 @@ plugins:
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
+    options:
+      # Tag nodes are off: ~130 tags would swamp the ~78 real pages and hide the
+      # structure the graph exists to show.
+      localGraph:
+        depth: 2
+        scale: 1.05
+        showTags: false
+        focusOnHover: true
+        linkDistance: 40
+        repelForce: 0.6
+      globalGraph:
+        depth: -1
+        scale: 0.85
+        showTags: false
+        focusOnHover: true
+        repelForce: 0.7
+        linkDistance: 45
     layout:
       position: right
       priority: 10
@@ -222,7 +240,7 @@ plugins:
         - domain
         - tags
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

@@ -21,10 +21,19 @@ experiences in conversation; the LLM files them.
 
 ```
 wiki/
-  index.md      catalog of every page, grouped by section
-  log.md        append-only, chronological
+  index.md      THE CV — the public homepage. Published.
+  log.md        ingest history + open conflicts and gaps. NOT published.
   <section>/    one directory per CV section, one file per instance
 ```
+
+**`index.md` is a CV, not a catalog.** It is the first thing a recruiter, collaborator, or
+committee member sees. It reads top-to-bottom as a conventional CV — education, experience,
+publications, projects, awards, service, teaching, talks, skills — with every entry linking to
+its detail page. It is not a list of wiki pages with one-line hooks.
+
+**`log.md` is never published.** Internal bookkeeping — what was ingested when, and the open
+conflicts and gaps table — stays off the public site. `ignorePatterns` in `quartz.config.yaml`
+excludes it. Never move conflict callouts, uncertainty notes, or TODOs into a published page.
 
 Current sections:
 
@@ -81,10 +90,13 @@ Rules:
   renders the frontmatter title as the page heading; a body H1 would duplicate it on the page
   and drift from the frontmatter over time. Quote the title so colons and brackets are safe.
 - Body content starts at the fact block. Section headings are `##`.
-- Links are Obsidian-style wikilinks with a path relative to the linking file:
-  `[[../projects/pycm]]`. Always annotate a link with why the connection exists.
-  Relative paths are required — several pages share a basename across sections
+- **Every wikilink carries a display alias: `[[../projects/pycm|PyCM — Multi-Class Confusion
+  Matrix Library]]`.** Without one, the site renders the raw slug (`pycm`), which reads as
+  machine output. Use the target page's `title`. Aliases must not contain `[` or `]` — the
+  brackets terminate the link early.
+- Relative paths are required — several pages share a basename across sections
   (`projects/pymilo` vs `publications/pymilo`), so bare `[[pymilo]]` is ambiguous.
+- Always annotate a link with a clause saying why the connection exists.
 - `status` vocabulary: `accepted`, `published`, `under-submission`, `in-preparation`,
   `active`, `completed`, `ongoing`, `awarded`.
 - Numbers (download counts, stars, participant counts, dates) belong in the body with the
@@ -129,7 +141,9 @@ accepted to X", "I started an internship at Y", "we released version 2 of Z").
 4. **Write or update** the owning page, then update every page that links to it.
 5. **Reconcile.** If the new information contradicts what's on a page, update the claim and
    note what changed — don't leave the old version standing unmarked.
-6. **Update `index.md`** — add or revise the one-line entry.
+6. **Update the CV in `index.md`** — add the entry to the right section, in the same format as
+   its neighbours, linking to the detail page. Anything CV-worthy belongs here; if it isn't
+   worth a CV line, ask whether it belongs in the wiki at all.
 7. **Append to `log.md`** using the exact prefix format:
    `## [YYYY-MM-DD] ingest | <short description>` followed by a bullet per page touched.
 8. **Report back**: which pages changed, and any conflict or gap worth Sadra's attention.
@@ -154,9 +168,20 @@ everything else at the repo root stay private to the repo.
 If a source document contains these, file everything else from it and drop these silently;
 note the omission in the log rather than the page.
 
-- `quartz.config.yaml` — site config. `markdownLinkResolution: relative` is **load-bearing**:
-  it is what makes `[[../projects/pymilo]]` resolve unambiguously. Do not change it to
-  `shortest` without first renaming every duplicated basename.
+Design is stock Quartz, deliberately. Resist adding custom CSS or extra chrome — the content
+is the point. Two config settings are load-bearing:
+
+- `markdownLinkResolution: relative` — what makes `[[../projects/pymilo]]` resolve
+  unambiguously. Do not change it to `shortest` without first renaming every duplicated
+  basename.
+- `note-properties` stays **enabled with `hidePropertiesView: true`**. It looks like a
+  display-only plugin, but disabling it drops frontmatter `tags` from the build and silently
+  removes all ~135 tag pages. Hidden view gives working tags with no visual clutter.
+
+The graph is a first-class way to navigate this wiki, so `showTags: false` is set on both the
+local and global graph: ~135 tag nodes would swamp 77 real pages and hide the structure worth
+seeing. Keep pages densely cross-linked — the graph is only as good as the `## Related`
+sections.
 - `quartz.lock.json` — pinned plugin versions.
 - `.github/workflows/deploy.yml` — builds on every push to `main` that touches `wiki/`.
   Quartz is fetched at a pinned tag into `.quartz-engine/` and never committed.

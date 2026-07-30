@@ -8,7 +8,7 @@ domain: biomedical
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Consolidates primer design tooling for biologists and bioinformaticians — design, validate,
 and optimize primers for PCR, qPCR, and sequencing. Provides abstracted Python objects that
@@ -20,4 +20,4 @@ simplify otherwise complex primer design workflows.
 [GitHub](https://github.com/openscilab/opr) · [PyPI](http://pepy.tech/project/opr)
 
 ## Related
-[[drux]] — sibling biomedical tool.
+[[drux|Drux — Drug Release Analysis Framework]] — sibling biomedical tool.

@@ -12,4 +12,4 @@ Co-author or co-maintainer on PyCM, Art, Samila, Nafas, PyRGG, PyMilo, MyTimer, 
 therapeutic AI study.
 
 ## Related
-[[../industry-experience/open-science-laboratory]] — the shared organization.
+[[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]] — the shared organization.

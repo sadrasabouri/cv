@@ -19,5 +19,5 @@ final span picker that selects the most likely answer among all predicted spans.
 [Paper](https://aclanthology.org/2022.dialdoc-1.16.pdf)
 
 ## Related
-[[../education/sharif-bsc-eecs]] — this was the bachelor's thesis.
-[[../research-experience/sharif-slp-lab]] — where it was done, pre-ChatGPT.
+[[../education/sharif-bsc-eecs|Bachelor of Electrical Engineering and Computer Science — Sharif University of Technology]] — this was the bachelor's thesis.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — where it was done, pre-ChatGPT.

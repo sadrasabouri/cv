@@ -17,5 +17,5 @@ Co-founded [OpenSciLab](https://github.com/openscilab/) with a group of friends 
 this.
 
 ## Related
-[[../industry-experience/open-science-laboratory]] — the organization and its output.
-[[../projects/pymilo]] — the clearest expression of the idea: non-executable, inspectable model serialization.
+[[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]] — the organization and its output.
+[[../projects/pymilo|PyMilo — Python Library for ML I/O]] — the clearest expression of the idea: non-executable, inspectable model serialization.

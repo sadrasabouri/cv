@@ -8,7 +8,7 @@ domain: hci
 ---
 
 **Role:** Co-developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 A collection of breathing exercises for people spending long hours at a computer. Multiple
 breathing patterns aimed at a refreshed, energetic workday and improved concentration through
@@ -19,5 +19,5 @@ updated on what they showed.
 [GitHub](https://github.com/sepandhaghighi/nafas) · [PyPI](http://pepy.tech/project/nafas)
 
 ## Related
-[[../publications/nafas]] — the technical report.
-[[mytimer]] — sibling terminal wellbeing/utility tool.
+[[../publications/nafas|Nafas: Breathing Gymnastics Application]] — the technical report.
+[[mytimer|MyTimer — A Timer for Command Line Enthusiasts]] — sibling terminal wellbeing/utility tool.

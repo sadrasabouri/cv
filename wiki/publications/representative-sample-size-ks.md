@@ -20,4 +20,4 @@ large dataset sizes** — the field's assumptions about "enough data" don't hold
 [Paper](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023WR036783)
 
 ## Related
-[[reaxff-boron-clusters]] — same first author, adjacent computational-science collaboration.
+[[reaxff-boron-clusters|ReaxFF Parameter Set for Boron Clusters and Icosahedral Boron Crystals]] — same first author, adjacent computational-science collaboration.

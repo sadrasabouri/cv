@@ -11,4 +11,4 @@ tags: [advisor, isi, usc]
 Co-author on the advice-styles and reflection-prompting work, and on therapeutic AI.
 
 ## Related
-[[../research-experience/cute-lab-name]] — the lab.
+[[../research-experience/cute-lab-name|USC ISI — CUTE LAB NAME]] — the lab.

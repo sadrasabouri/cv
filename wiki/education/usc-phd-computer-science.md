@@ -14,7 +14,7 @@ Research at the intersection of HCI and NLP, advised within the Adaptive Computi
 (ACE) Lab with a secondary affiliation at ISI.
 
 ## Related
-[[../profile/research-agenda]] — what the dissertation is organized around.
-[[../research-experience/ace-lab]] — Souti Chattopadhyay's lab.
-[[../research-experience/cute-lab-name]] — Jonathan May's lab at ISI.
-[[usc-masters-computer-science]] — MS earned along the way.
+[[../profile/research-agenda|Research Agenda]] — what the dissertation is organized around.
+[[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — Souti Chattopadhyay's lab.
+[[../research-experience/cute-lab-name|USC ISI — CUTE LAB NAME]] — Jonathan May's lab at ISI.
+[[usc-masters-computer-science|Master's of Computer Science — University of Southern California]] — MS earned along the way.

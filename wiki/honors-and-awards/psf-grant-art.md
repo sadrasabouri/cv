@@ -12,5 +12,5 @@ tags: [grant, psf, open-source, python]
 Funding to add multi-line and custom font features to the Art library.
 
 ## Related
-[[../projects/art]] — the funded project.
-[[psf-grant-nava]] — the later PSF grant.
+[[../projects/art|Art — ASCII Art Library for Python]] — the funded project.
+[[psf-grant-nava|PSF Software Development Grant — Nava]] — the later PSF grant.

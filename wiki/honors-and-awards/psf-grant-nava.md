@@ -13,5 +13,5 @@ Funding to develop OS-based sound engines for the Nava library. Part of the PSF'
 Python packages that foster open science and accessible knowledge.
 
 ## Related
-[[../projects/nava]] — the funded project.
-[[psf-grant-art]] — the earlier PSF grant.
+[[../projects/nava|Nava — OS-Native Sound Engine in Python]] — the funded project.
+[[psf-grant-art|PSF Software Development Grant — Art]] — the earlier PSF grant.

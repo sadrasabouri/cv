@@ -12,5 +12,5 @@ evaluation, mixed-methods research, hypothesis formulation and testing
 analysis, behavioral data analysis, parametric and nonparametric tests
 
 ## Related
-[[technical]] — the implementation side.
-[[../research-experience/ace-lab]] — where these are applied.
+[[technical|Technical Skills]] — the implementation side.
+[[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — where these are applied.

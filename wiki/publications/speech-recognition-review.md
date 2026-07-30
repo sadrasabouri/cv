@@ -15,5 +15,5 @@ A literature review of contemporary speech recognition methods, growing out of t
 and TTS systems built at the Sharif SLP Lab.
 
 ## Related
-[[../research-experience/sharif-slp-lab]] — the work this review synthesizes.
-[[../projects/sharif-wav2vec2]] — the Farsi ASR model from the same effort.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — the work this review synthesizes.
+[[../projects/sharif-wav2vec2|Sharif-Wav2Vec2.0 — Farsi Speech Recognition Model]] — the Farsi ASR model from the same effort.

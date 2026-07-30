@@ -20,4 +20,4 @@ of social feeds.
 [Paper](https://dl.acm.org/doi/pdf/10.1145/3746059.3747647)
 
 ## Related
-[[../research-experience/ace-lab-ai-for-education]] — the research thread.
+[[../research-experience/ace-lab-ai-for-education|Thread: AI for Education]] — the research thread.

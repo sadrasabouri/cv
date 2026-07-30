@@ -8,7 +8,7 @@ domain: nlp
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Converts digits across numeral systems — English, Persian, Hindi, Arabic-Indic, Bengali, and
 others. Auto-detects mixed formats and converts only the numbers, leaving surrounding text
@@ -18,4 +18,4 @@ untouched, which makes multilingual and localized data handling straightforward.
 [GitHub](https://github.com/openscilab/xnum/) · [PyPI](http://pepy.tech/project/xnum)
 
 ## Related
-[[naab]] — the other Persian-language data effort.
+[[naab|naab — Farsi Text Corpus]] — the other Persian-language data effort.

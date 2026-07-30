@@ -23,6 +23,6 @@ transparent, and fun.
 [IMDB](https://www.imdb.com/name/nm17655243/)
 
 ## Related
-[[research-agenda]] — the question the PhD is organized around.
-[[open-source-philosophy]] — why the software work exists alongside the research.
-[[../education/usc-phd-computer-science]] — current program.
+[[research-agenda|Research Agenda]] — the question the PhD is organized around.
+[[open-source-philosophy|Open Source Philosophy]] — why the software work exists alongside the research.
+[[../education/usc-phd-computer-science|PhD in Computer Science — University of Southern California]] — current program.

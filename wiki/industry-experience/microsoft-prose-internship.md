@@ -13,4 +13,4 @@ tags: [internship, microsoft, research, agents]
 Applied scientist internship on the PROSE (PROgram Synthesis using Examples) team.
 
 ## Related
-[[../publications/auditing-ai-agents-spreadsheets]] — UIST 2026 submission co-authored with Gulwani, from this line of work.
+[[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — UIST 2026 submission co-authored with Gulwani, from this line of work.

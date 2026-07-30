@@ -15,5 +15,5 @@ Data augmentation for Farsi question answering: converts short QA pairs into ful
 answers by syntactic transformation.
 
 ## Related
-[[../research-experience/sharif-slp-lab]] — where this line of Farsi QA work originated.
-[[docalog]] — related document-grounded dialogue work.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — where this line of Farsi QA work originated.
+[[docalog|Docalog: Multi-Document Dialogue System Using Transformer-Based Span Retrieval]] — related document-grounded dialogue work.

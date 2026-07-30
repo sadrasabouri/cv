@@ -4,6 +4,23 @@ title: "Log"
 
 Append-only. Newest at the bottom. Entry prefix: `## [YYYY-MM-DD] ingest | <description>`
 
+**This file is not published.** It is excluded from the site via `ignorePatterns` in
+`quartz.config.yaml`, so internal bookkeeping stays out of the public CV.
+
+## Open conflicts and gaps
+
+Resolve these by asking Sadra during an ingest, then delete the row.
+
+| Where | Issue |
+|---|---|
+| `projects/art` | 13M+ vs 10M+ downloads; 2.5k vs 2k stars |
+| `projects/pycm` | 1.5k stars/3M downloads vs 2k stars/2M downloads |
+| `projects/mycoffee` | No repo link or adoption numbers |
+| `honors-and-awards/vector-scholarship-in-ai` | No year |
+| `honors-and-awards/usc-presenter-viterbitrek` | No year |
+| `teaching-and-outreach/sharif-nlp-workshop` | No year |
+| `teaching-and-outreach/stanford-code-in-place` | No year; program name unconfirmed |
+
 ## [2026-07-30] ingest | Bootstrap — personal web page + master CV document
 
 Initial build. Two sources read, unioned, and discarded; the wiki is now the source of truth.
@@ -81,3 +98,24 @@ Removed before publishing, since everything in `wiki/` becomes public:
   affiliation. Publishing colleagues' contact details is their call, not ours.
 
 Schema updated with a standing rule so neither gets re-added on a future ingest.
+
+## [2026-07-30] redesign | CV-first homepage, simpler chrome, graph focus
+
+Site was reading as a wiki dump rather than a CV, and internal bookkeeping was public.
+
+- **`index.md` rewritten as an actual CV** — education, research and industry experience,
+  25 publications with authors and venues, selected projects with adoption numbers, awards,
+  service, teaching, talks, skills, references. Every entry links to its detail page.
+  Publication entries were generated from the pages themselves so they cannot drift.
+- **`log.md` is no longer published.** It was exposing the ingest history to anyone reading
+  the CV. The "open conflicts and gaps" table moved here from `index.md` for the same reason —
+  a public CV should not advertise "13M+ vs 10M+ downloads, needs confirmation".
+- **192 wikilinks across 74 files given display aliases.** They were rendering as raw slugs
+  (`ace-lab-ai-for-education`), which is what made the site feel machine-generated.
+- Fixed 5 links whose alias contained `[CUTE LAB NAME]` — the brackets terminated the
+  wikilink early and broke it.
+- **Graph promoted**: tag nodes off on both local and global graph, local depth raised to 2,
+  hover focus on. The graph now shows page structure instead of a tag hairball.
+- Frontmatter properties block hidden (`hidePropertiesView: true`). Note: disabling the
+  plugin outright also removes all tag pages — see the schema note.
+- Contact details removed from the references section of the CV; available on request.

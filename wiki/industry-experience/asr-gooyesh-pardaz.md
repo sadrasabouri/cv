@@ -27,4 +27,4 @@ Speech and conversational AI for commercial products:
 > ML Engineer Intern.
 
 ## Related
-[[../research-experience/sharif-slp-lab]] — concurrent academic Farsi speech work.
+[[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — concurrent academic Farsi speech work.

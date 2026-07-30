@@ -8,7 +8,7 @@ domain: nlp
 ---
 
 **Role:** Lead developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Manages the memory of a user's interactions with LLMs. Users can tap the history of past
 conversations when prompting, select specific parts of an exchange with one model, and carry
@@ -22,5 +22,5 @@ conversational state transfer.
 [GitHub](https://github.com/openscilab/memor/) · [PyPI](http://pepy.tech/project/memor)
 
 ## Related
-[[../talks/pycon-us-2026-memor-poster]] — presented as a poster, May 2026.
-[[tocount]] — sibling LLM tooling.
+[[../talks/pycon-us-2026-memor-poster|PyCon US 2026 — Memor Poster]] — presented as a poster, May 2026.
+[[tocount|ToCount — Lightweight Token Estimator]] — sibling LLM tooling.

@@ -15,4 +15,4 @@ A semidefinite relaxation for clustering graphs under fairness constraints — a
 discriminatory social bias in the clustering objective itself rather than post-hoc.
 
 ## Related
-[[../profile/open-source-philosophy]] — part of the multidisciplinary open-source research thread.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — part of the multidisciplinary open-source research thread.

@@ -16,5 +16,5 @@ tags: [programming, frameworks, tools]
 **Research and design tools:** Qualtrics, Prolific, Figma, Notion, Unity3D
 
 ## Related
-[[research-methods]] — the empirical side of the toolkit.
-[[../industry-experience/open-science-laboratory]] — where most of this was exercised in practice.
+[[research-methods|Research Methods]] — the empirical side of the toolkit.
+[[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]] — where most of this was exercised in practice.

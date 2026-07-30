@@ -16,5 +16,5 @@ therapeutic AI systems — i.e. the people best positioned to evaluate these sys
 themselves affected by the traits they are meant to assess.
 
 ## Related
-[[../profile/research-agenda]] — covers the "patients navigating conflicting medical advice" domain.
-[[../references/sepand-haghighi]] — co-author.
+[[../profile/research-agenda|Research Agenda]] — covers the "patients navigating conflicting medical advice" domain.
+[[../references/sepand-haghighi|Sepand Haghighi]] — co-author.

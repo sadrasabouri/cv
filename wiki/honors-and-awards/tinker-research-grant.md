@@ -14,4 +14,4 @@ For fine-tuning and post-training large language models. The funded project is o
 **Persian prosody-informed LLMs**.
 
 ## Related
-[[../projects/naab]] — the Persian language-resource line this builds on.
+[[../projects/naab|naab — Farsi Text Corpus]] — the Persian language-resource line this builds on.

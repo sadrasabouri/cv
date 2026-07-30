@@ -19,4 +19,4 @@ tags: [peer-review, hci, software-engineering]
 | Nature Scientific Data | One dataset paper |
 
 ## Related
-[[../profile/research-agenda]] — the areas these venues overlap with.
+[[../profile/research-agenda|Research Agenda]] — the areas these venues overlap with.

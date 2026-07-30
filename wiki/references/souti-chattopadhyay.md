@@ -12,4 +12,4 @@ Co-author on the majority of the HCI work — trust dynamics, cognitive biases, 
 generation, reflection prompting, advice styles, therapeutic AI, spreadsheet agents.
 
 ## Related
-[[../research-experience/ace-lab]] — the lab.
+[[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — the lab.

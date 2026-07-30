@@ -14,4 +14,4 @@ Section leader for a global program teaching the Python programming language.
 > No year on file, and the program name is unconfirmed (likely Code in Place). Worth filling in.
 
 ## Related
-[[../profile/open-source-philosophy]] — the same motivation for sharing knowledge.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — the same motivation for sharing knowledge.

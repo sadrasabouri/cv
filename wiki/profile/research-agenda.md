@@ -12,14 +12,14 @@ that part better?*
 Four domains studied so far, each one a place where LLMs have arrived but integration is
 still unresolved:
 
-- Software developers working with code agents → [[../research-experience/ace-lab-human-ai-software-engineering]]
-- Strategic decision-makers relying on AI advisors → [[../research-experience/ace-lab-ai-decision-making]]
-- Patients navigating conflicting medical advice → [[../publications/anthropomorphism-sycophancy-therapeutic-ai]]
-- Users from different knowledge backgrounds asking questions → [[../research-experience/ace-lab-ai-for-education]]
+- Software developers working with code agents → [[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]]
+- Strategic decision-makers relying on AI advisors → [[../research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]]
+- Patients navigating conflicting medical advice → [[../publications/anthropomorphism-sycophancy-therapeutic-ai|How LLMs' Anthropomorphism and Sycophancy Compromise Expert Evaluation of Therapeutic AI]]
+- Users from different knowledge backgrounds asking questions → [[../research-experience/ace-lab-ai-for-education|Thread: AI for Education]]
 
 The goal for the remaining years is a **taxonomy of these integration challenges** and a
 framework identifying the right interaction patterns and integration points for AI.
 
 ## Related
-[[../research-experience/ace-lab]] — Souti Chattopadhyay's lab, primary affiliation.
-[[../research-experience/cute-lab-name]] — Jonathan May's lab at ISI, secondary affiliation.
+[[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — Souti Chattopadhyay's lab, primary affiliation.
+[[../research-experience/cute-lab-name|USC ISI — CUTE LAB NAME]] — Jonathan May's lab at ISI, secondary affiliation.

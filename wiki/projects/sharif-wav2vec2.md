@@ -8,7 +8,7 @@ domain: speech
 ---
 
 **Role:** Developer
-**Org:** [[../research-experience/sharif-slp-lab]]
+**Org:** [[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]]
 
 Wav2Vec2.0 base model fine-tuned on **108 hours of Farsi audio** from Common Voice. The token
 set and language models were adapted to capture Farsi nuances absent from English. A **5-gram
@@ -19,5 +19,5 @@ online ASR accuracy.
 [Model](https://huggingface.co/SLPL/Sharif-wav2vec2)
 
 ## Related
-[[../publications/speech-recognition-review]] — the review this work fed into.
-[[nava]] — the other audio-domain project.
+[[../publications/speech-recognition-review|A Review of the Recent Speech Recognition Methods]] — the review this work fed into.
+[[nava|Nava — OS-Native Sound Engine in Python]] — the other audio-domain project.

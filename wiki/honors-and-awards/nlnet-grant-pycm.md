@@ -13,5 +13,5 @@ Funding to develop distance/similarity metrics and benchmarking in PyCM — stat
 of machine learning classification models.
 
 ## Related
-[[../projects/pycm]] — the funded project.
-[[trelis-grant-pycm]] — the other PyCM grant.
+[[../projects/pycm|PyCM — Multi-Class Confusion Matrix Library]] — the funded project.
+[[trelis-grant-pycm|Trelis AI Micro-Grant — PyCM]] — the other PyCM grant.

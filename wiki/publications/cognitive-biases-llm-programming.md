@@ -25,5 +25,5 @@ builders.
 > LLM-Assisted Programming". The title above is the real one.
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering]] — the research thread.
-[[trust-dynamics-ai-assisted-development]] — earlier study in the same line.
+[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — the research thread.
+[[trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]] — earlier study in the same line.

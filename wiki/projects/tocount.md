@@ -8,7 +8,7 @@ domain: nlp
 ---
 
 **Role:** Developer
-**Org:** [[../industry-experience/open-science-laboratory]]
+**Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 
 Estimates token counts for LLM input using rule-based and ML methods. Built for prompt
 analysis, token budgeting, and optimizing interactions with token-metered systems.
@@ -17,4 +17,4 @@ analysis, token budgeting, and optimizing interactions with token-metered system
 [GitHub](https://github.com/openscilab/tocount/) · [PyPI](http://pepy.tech/project/tocount)
 
 ## Related
-[[memor]] — sibling LLM tooling.
+[[memor|Memor — Conversational Memory Across LLMs]] — sibling LLM tooling.

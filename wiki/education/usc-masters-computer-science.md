@@ -12,4 +12,4 @@ tags: [masters, usc]
 Earned during the PhD program.
 
 ## Related
-[[usc-phd-computer-science]] — the program it was earned within.
+[[usc-phd-computer-science|PhD in Computer Science — University of Southern California]] — the program it was earned within.
