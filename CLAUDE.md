@@ -20,12 +20,15 @@ experiences in conversation; the LLM files them.
 ## Layout
 
 ```
+log.md          ingest history. Repo root, outside the wiki. NOT published.
 todo.md         open conflicts and gaps. Repo root, outside the wiki. NOT published.
 wiki/
   index.md      catalog of every page, grouped by section. Published.
-  log.md        ingest history. NOT published.
   <section>/    one directory per CV section, one file per instance
 ```
+
+Everything under `wiki/` is published; everything outside it is not. That is the whole rule —
+there is no ignore list to maintain, so nothing private depends on getting config right.
 
 **`index.md` is an index.** It catalogs every page in the wiki, grouped by section, each with
 a link and a one-line summary — the index file from the LLM-wiki pattern. It is not a rendered
@@ -35,8 +38,8 @@ sidebar explorer and the graph are the other two ways in.
 Regenerate it rather than hand-editing when many pages change; summaries come from each page's
 `## Summary`, or its first prose paragraph when there isn't one.
 
-**`log.md` is never published.** Internal bookkeeping — what was ingested when — stays off the
-public site. `ignorePatterns` in `quartz.config.yaml` excludes it.
+**`log.md` is never published.** Internal bookkeeping — what was ingested when — lives at the
+repo root, outside `wiki/`, so it cannot be published by accident.
 
 **Nothing in `wiki/` is ever provisional.** No TODOs, no "worth filling in", no "needs
 confirmation", no gap or conflict callouts, no bracketed placeholders — not on a published page,
@@ -165,9 +168,11 @@ is missing, or when the input contradicts something already filed.
 
 ## The published site
 
-`wiki/` is published with [Quartz](https://quartz.jzhao.xyz) to
-<https://sadrasabouri.github.io/cv>. Only `wiki/` is published — this schema file and
-everything else at the repo root stay private to the repo.
+`wiki/` is published to <https://sadrasabouri.github.io/cv> by
+`.github/workflows/deploy.yml`, using the `konstfish/quartz-build-action` action. Only `wiki/`
+is published — this schema file, `log.md`, `todo.md`, and everything else at the repo root stay
+private to the repo. There is no Quartz config, no build script, and nothing to install; the
+action owns the build.
 
 **Everything in `wiki/` is public.** Two things therefore never go in it:
 
@@ -176,39 +181,9 @@ everything else at the repo root stay private to the repo.
 - **Other people's contact details.** Recommenders and collaborators get a name, role, and
   affiliation — never an email or phone number. Their emails are theirs to publish, not
   Sadra's.
+- Nothing provisional: no TODOs, gap notes, or conflict callouts. Those go in `todo.md`.
 
 If a source document contains these, file everything else from it and drop these silently;
-note the omission in the log rather than the page.
+note the omission in `log.md` rather than the page.
 
-Design is stock Quartz, deliberately. Resist adding custom CSS or extra chrome — the content
-is the point. Two config settings are load-bearing:
-
-- `markdownLinkResolution: relative` — what makes `[[../projects/pymilo]]` resolve
-  unambiguously. Do not change it to `shortest` without first renaming every duplicated
-  basename.
-- `note-properties` stays **enabled with `hidePropertiesView: true`**. It looks like a
-  display-only plugin, but disabling it drops frontmatter `tags` from the build and silently
-  removes all ~135 tag pages. Hidden view gives working tags with no visual clutter.
-
-The graph is a first-class way to navigate this wiki, so `showTags: false` is set on both the
-local and global graph: ~135 tag nodes would swamp 77 real pages and hide the structure worth
-seeing. Keep pages densely cross-linked — the graph is only as good as the `## Related`
-sections.
-
-**`scripts/patch-base-path.py` is required for the site to work.** Quartz v5.0.0 hardcodes
-`fetch("/static/contentIndex.json")` in the explorer, graph, and search scripts. This site is a
-GitHub *project* page served under `/cv/`, so that absolute path hits the domain root and 404s,
-and all three components silently do nothing — everything server-rendered still looks fine,
-which is what makes it hard to notice. The script rewrites the URL to be relative to the page's
-own depth, using `<body data-slug>`. Both `scripts/preview.sh` and the deploy workflow run it,
-and it patches the plugins' `dist/` as well as `src/` — Quartz bundles from `dist`, so patching
-`src` alone does nothing. It exits non-zero if the pattern disappears, so an upstream fix fails
-the build loudly instead of shipping a dead site.
-- `quartz.lock.json` — pinned plugin versions.
-- `.github/workflows/deploy.yml` — builds on every push to `main` that touches `wiki/`.
-  Quartz is fetched at a pinned tag into `.quartz-engine/` and never committed.
-- `scripts/preview.sh` — same build locally at <http://localhost:8080>.
-
-Ingest does not need to do anything for the site — pushing to `main` deploys it. Nothing about
-the site's existence changes how pages are written, with one exception: the `title:` frontmatter
-rule above.
+Keep pages densely cross-linked — the graph view is only as good as the `## Related` sections.

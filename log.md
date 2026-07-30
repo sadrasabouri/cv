@@ -4,8 +4,8 @@ title: "Log"
 
 Append-only. Newest at the bottom. Entry prefix: `## [YYYY-MM-DD] ingest | <description>`
 
-**This file is not published.** It is excluded from the site via `ignorePatterns` in
-`quartz.config.yaml`, so internal bookkeeping stays out of the public CV.
+**This file is not published.** It lives at the repo root, outside `wiki/`, and only `wiki/`
+is rendered to the site.
 
 Open conflicts and gaps live in `todo.md` at the repo root, not here and not on wiki pages.
 
@@ -141,3 +141,15 @@ which reads as draft notes on what is meant to be a finished CV.
 - **`index.md` restored to a catalog** — 76 pages grouped by section with a link and one-line
   summary each, per the LLM-wiki pattern. The CV-rendering version is gone: the CV *is* the
   wiki, since each directory is a CV section.
+
+## [2026-07-30] simplify | Drop the hand-rolled Quartz setup
+
+Replaced the whole custom build with `konstfish/quartz-build-action`.
+
+- Deleted `quartz.config.yaml`, `quartz.lock.json`, `scripts/preview.sh`, and
+  `scripts/patch-base-path.py`. The workflow is now ~50 lines and owns the build entirely.
+- `log.md` moved from `wiki/` to the repo root. Privacy no longer depends on an `ignorePatterns`
+  entry being correct — only `wiki/` is published, so anything outside it is private by
+  construction.
+- Trade-off accepted: no local preview, no pinned Quartz version, and no control over Quartz
+  settings unless a config file is passed to the action.

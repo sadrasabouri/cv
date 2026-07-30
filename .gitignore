@@ -1,7 +1,2 @@
-# Quartz build engine, fetched at a pinned tag by scripts/preview.sh and CI
-.quartz-engine/
-
-# Generated site
-public/
-
 .DS_Store
+public/

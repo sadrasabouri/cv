@@ -1,13 +1,9 @@
-name: Deploy wiki to GitHub Pages
+name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
-    branches: [main]
-    paths:
-      - "wiki/**"
-      - "quartz.config.yaml"
-      - "quartz.lock.json"
-      - ".github/workflows/deploy.yml"
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -19,71 +15,35 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  QUARTZ_VERSION: v5.0.0
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Full history so Quartz can read real created/modified dates from git.
-      # Quartz discovers the repo by walking up from the content directory.
-      - name: Check out wiki
-        uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build Quartz site from wiki folder
+        uses: konstfish/quartz-build-action@v6
         with:
-          fetch-depth: 0
+          source: wiki
+          destination: public
+          page_title: Sadra Sabouri
+          page_base_url: sadrasabouri.github.io/cv
 
-      # Quartz itself is never committed to this repo — it is fetched at a
-      # pinned tag and kept outside the content tree.
-      - name: Check out Quartz ${{ env.QUARTZ_VERSION }}
-        uses: actions/checkout@v6
-        with:
-          repository: jackyzha0/quartz
-          ref: ${{ env.QUARTZ_VERSION }}
-          path: .quartz-engine
-
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-          cache-dependency-path: .quartz-engine/package-lock.json
-
-      - name: Apply site config
-        run: cp quartz.config.yaml quartz.lock.json .quartz-engine/
-
-      - name: Cache Quartz plugins
-        uses: actions/cache@v5
-        with:
-          path: .quartz-engine/.quartz/plugins
-          key: ${{ runner.os }}-quartz-plugins-${{ env.QUARTZ_VERSION }}-${{ hashFiles('quartz.lock.json') }}
-
-      - name: Install Quartz and plugins
-        working-directory: .quartz-engine
-        run: |
-          npm ci
-          npx quartz plugin install
-
-      # Quartz hardcodes an absolute content-index URL that 404s on a project
-      # site, silently killing the explorer, graph, and search. Fails the build
-      # if the pattern is gone, rather than deploying a dead site.
-      - name: Patch content-index URL for base-path deployment
-        run: python3 scripts/patch-base-path.py .quartz-engine/.quartz/plugins
-
-      - name: Build site from wiki/
-        working-directory: .quartz-engine
-        run: npx quartz build -d "$GITHUB_WORKSPACE/wiki" -o "$GITHUB_WORKSPACE/public"
-
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
   deploy:
+    runs-on: ubuntu-latest
     needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
