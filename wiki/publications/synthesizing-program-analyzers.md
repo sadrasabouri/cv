@@ -1,0 +1,20 @@
+---
+title: "Synthesizing Program Analyzers to Help Programmers Answer Questions About Code"
+type: publication
+status: under-submission
+year: 2026
+venue: ICSE
+tags: [software-engineering, codeql, rag, education]
+---
+
+**Authors:** A Nazari, **S Sabouri**, W B Zhu, R Jia, M Raghothaman, S Chattopadhyay
+**Venue:** IEEE/ACM International Conference on Software Engineering (ICSE), 2026 — under submission
+
+## Summary
+A system bridging LLMs with **CodeQL** so novice programmers can interrogate large codebases.
+Uses RAG-based iterative query generation with self-testing. In a user study with 20 software
+engineers it **increased task accuracy 3.7×** while **cutting completion time 32%**.
+
+## Related
+[[../research-experience/ace-lab-human-ai-software-engineering]] — contributed as an educational research prototype.
+[[../research-experience/ace-lab-ai-for-education]] — also part of the education thread.
