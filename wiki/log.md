@@ -7,19 +7,7 @@ Append-only. Newest at the bottom. Entry prefix: `## [YYYY-MM-DD] ingest | <desc
 **This file is not published.** It is excluded from the site via `ignorePatterns` in
 `quartz.config.yaml`, so internal bookkeeping stays out of the public CV.
 
-## Open conflicts and gaps
-
-Resolve these by asking Sadra during an ingest, then delete the row.
-
-| Where | Issue |
-|---|---|
-| `projects/art` | 13M+ vs 10M+ downloads; 2.5k vs 2k stars |
-| `projects/pycm` | 1.5k stars/3M downloads vs 2k stars/2M downloads |
-| `projects/mycoffee` | No repo link or adoption numbers |
-| `honors-and-awards/vector-scholarship-in-ai` | No year |
-| `honors-and-awards/usc-presenter-viterbitrek` | No year |
-| `teaching-and-outreach/sharif-nlp-workshop` | No year |
-| `teaching-and-outreach/stanford-code-in-place` | No year; program name unconfirmed |
+Open conflicts and gaps live in `todo.md` at the repo root, not here and not on wiki pages.
 
 ## [2026-07-30] ingest | Bootstrap — personal web page + master CV document
 
@@ -119,3 +107,37 @@ Site was reading as a wiki dump rather than a CV, and internal bookkeeping was p
 - Frontmatter properties block hidden (`hidePropertiesView: true`). Note: disabling the
   plugin outright also removes all tag pages — see the schema note.
 - Contact details removed from the references section of the CV; available on request.
+
+## [2026-07-30] cleanup | Provisional language out of the wiki, into `todo.md`
+
+Pages were carrying their own unfinished business — "Worth filling in", "Needs confirmation" —
+which reads as draft notes on what is meant to be a finished CV.
+
+- Removed 5 `> [!note] Gap` callouts: `teaching-and-outreach/sharif-nlp-workshop`,
+  `teaching-and-outreach/stanford-code-in-place`, `honors-and-awards/vector-scholarship-in-ai`,
+  `honors-and-awards/usc-presenter-viterbitrek`, `projects/mycoffee`. Each page now simply
+  omits the fact it doesn't have.
+- Removed 2 `> [!warning] Conflict` callouts: `projects/art`, `projects/pycm`. Both keep the
+  figures they already claimed; `projects/pycm` had also been hedging in the body
+  ("1.5k–2k GitHub stars") and now states **2k+ stars, 3M+ downloads** outright.
+- **Created `todo.md` at the repo root** with all 7 items, each recording what the page claims
+  and what still needs confirming. It sits outside `wiki/`, so it cannot be published by
+  accident the way an ignored file inside `wiki/` could.
+- The open conflicts and gaps table moved out of this file into `todo.md`. `log.md` is now
+  ingest history only.
+- Schema and `/ingest` updated: nothing provisional in `wiki/`, ever — `todo.md` is the only
+  place a question lives, and ingest step 8 keeps it current.
+
+## [2026-07-30] fix | Explorer, graph and search were dead; index restored to a catalog
+
+- **Root cause found for the broken explorer and graph.** Quartz v5.0.0 hardcodes
+  `fetch("/static/contentIndex.json")` in the explorer, graph, *and* search scripts. This site
+  is served under `/cv/`, so that absolute path resolved to the domain root and returned 404.
+  All three components fetch that file, so all three quietly did nothing while the
+  server-rendered page looked completely normal. Search was broken too, unreported.
+  Fixed by `scripts/patch-base-path.py`, run by both the preview script and CI.
+  Verified in headless Chrome: the explorer now renders all 12 section folders, the graph
+  builds its canvas, and the request goes to `<base>/static/contentIndex.json`.
+- **`index.md` restored to a catalog** — 76 pages grouped by section with a link and one-line
+  summary each, per the LLM-wiki pattern. The CV-rendering version is gone: the CV *is* the
+  wiki, since each directory is a CV section.

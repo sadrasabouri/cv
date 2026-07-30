@@ -13,3 +13,5 @@ Reminders:
 - One input usually touches several sections — publications, research threads, projects.
 - Update `wiki/index.md` and append to `wiki/log.md` before reporting back.
 - Flag contradictions with the existing wiki rather than overwriting silently.
+- Nothing provisional goes in `wiki/` — no TODOs, gap notes, or conflict callouts. Unresolved
+  questions go in `todo.md` at the repo root; delete the ones this ingest answers.

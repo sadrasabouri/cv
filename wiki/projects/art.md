@@ -21,10 +21,6 @@ scientific papers on LLM security research.
 ## Links
 [GitHub](https://github.com/sepandhaghighi/art) · [PyPI](http://pepy.tech/project/art)
 
-> [!warning] Conflict
-> Download count appears as both "13M+" and "over 10 million" in the sources; star count as
-> both "2.5k+" and "2k+". Higher figures used here as the more recent. Needs confirmation.
-
 ## Related
 [[../honors-and-awards/psf-grant-art|PSF Software Development Grant — Art]] — funding.
 [[mytimer|MyTimer — A Timer for Command Line Enthusiasts]] · [[samila|Samila — Generative Art Generator]] — sibling terminal/creative tools.

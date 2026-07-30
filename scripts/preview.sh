@@ -24,6 +24,10 @@ cd "$ENGINE"
 [ -d node_modules ] || npm ci
 npx quartz plugin install
 
+# See scripts/patch-base-path.py — Quartz hardcodes an absolute content-index URL
+# that breaks the explorer, graph, and search on a base-path deployment.
+python3 "$REPO_ROOT/scripts/patch-base-path.py" "$ENGINE/.quartz/plugins"
+
 if [ "${1:-}" = "--build" ]; then
   exec npx quartz build -d "$REPO_ROOT/wiki" -o "$REPO_ROOT/public"
 fi

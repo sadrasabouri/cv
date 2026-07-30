@@ -1,162 +1,121 @@
 ---
-title: "Sadra Sabouri"
+title: "Index"
 ---
 
-PhD Candidate in Computer Science, **University of Southern California** · Los Angeles, California
-[sabourih@usc.edu](mailto:sabourih@usc.edu) · [GitHub](https://github.com/sadrasabouri) · [Google Scholar](https://scholar.google.com/citations?user=_nBF5fsAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/sadrasabouri/) · [Twitter](https://twitter.com/sadrasabourih)
+A catalog of everything in this wiki. Each directory is a CV section; each page inside it is
+one instance of that section. Browse the sections in the sidebar, or follow the **graph** to
+see how pages connect.
 
-I work at the intersection of HCI and NLP on making AI a better collaborator for people, and I
-co-lead an open-source team building scientific tools. See [[profile/research-agenda|Research Agenda]]
-for what the PhD is organized around and [[profile/open-source-philosophy|Open Source Philosophy]]
-for why the software work sits alongside it.
+## Profile
 
-> [!tip] This CV is a wiki
-> Every entry below links to a page with the full story, and those pages link to each other.
-> Use the **graph** in the sidebar to follow the connections, or the search to jump anywhere.
+- [[profile/open-source-philosophy|Open Source Philosophy]] — Open-sourcing NLP research produced breakthroughs like ChatGPT — but generative AI also makes it cheap to…
+- [[profile/research-agenda|Research Agenda]] — The core problem: how to integrate AI systems into human workflows. Specifically, one question — what is the…
+- [[profile/sadra-sabouri|Sadra Sabouri]] — Working at the intersection of HCI and NLP, on making AI a better collaborator for people. Co-leads an…
 
 ## Education
 
-- **PhD, Computer Science** — University of Southern California · expected May 2028
-  [[education/usc-phd-computer-science|PhD in Computer Science — University of Southern California]]
-- **MSc, Computer Science** — University of Southern California · December 2025
-  [[education/usc-masters-computer-science|Master's of Computer Science — University of Southern California]]
-- **BSc, Electrical Engineering and Computer Science** — Sharif University of Technology · May 2023
-  [[education/sharif-bsc-eecs|Bachelor of Electrical Engineering and Computer Science — Sharif University of Technology]]
+- [[education/sharif-bsc-eecs|Bachelor of Electrical Engineering and Computer Science — Sharif University of Technology]] *(2023)* — The bachelor's thesis became Docalog: Multi-Document Dialogue System Using Transformer-Based Span Retrieval, a…
+- [[education/usc-masters-computer-science|Master's of Computer Science — University of Southern California]] *(2025)* — Earned during the PhD program.
+- [[education/usc-phd-computer-science|PhD in Computer Science — University of Southern California]] *(2028)* — Research at the intersection of HCI and NLP, advised within the Adaptive Computing Experience (ACE) Lab with a…
 
 ## Research Experience
 
-- **Research Assistant**, [[research-experience/ace-lab|Adaptive Computing Experience (ACE) Lab]], USC · Aug 2023 – present
-  Three threads: [[research-experience/ace-lab-human-ai-software-engineering|human-AI interaction in software engineering]],
-  [[research-experience/ace-lab-ai-decision-making|AI aid for decision making]], and
-  [[research-experience/ace-lab-ai-for-education|AI for education]]. Partially funded by the Amazon AGI Center.
-- **Affiliated researcher**, [[research-experience/cute-lab-name|CUTE LAB NAME]], USC ISI
-- **Research Assistant**, [[research-experience/sharif-slp-lab|Speech and Language Processing Lab]], Sharif University of Technology · Aug 2021 – Nov 2022
-  Farsi speech and text: open-sourced ASR/TTS systems and the corpus behind the first Farsi T5 models.
+- [[research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] *(2021)* — Two lines of work, both pre-ChatGPT.
+- [[research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] *(2024)* — How LLM presentation style influences the decisions people make, across two studies.
+- [[research-experience/ace-lab-ai-for-education|Thread: AI for Education]] *(2024)* — How AI systems explain things to people with different levels of expertise, across three efforts.
+- [[research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] *(2023)* — How developers trust and interact with LLM-generated code, across four studies.
+- [[research-experience/cute-lab-name|USC ISI — [CUTE LAB NAME]]] *(2023)* — Secondary lab affiliation alongside the ACE Lab, bringing the NLP side of the work. May is a co-author on the…
+- [[research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] *(2023)* — Primary research home for the PhD. Work is organized into three threads, each with its own page. Portions of…
 
 ## Industry Experience
 
-- **Applied Scientist Intern**, [[industry-experience/microsoft-prose-internship|Microsoft PROSE]] · Summer 2026
-  Program synthesis, working with Sumit Gulwani.
-- **Co-founder**, [[industry-experience/open-science-laboratory|Open Science Laboratory]] · 2019 – 2025
-  Open-source scientific tooling; 5,000+ GitHub stars and 20M+ downloads across the portfolio.
-- **Machine Learning Engineer Intern**, [[industry-experience/asr-gooyesh-pardaz|Asr Gooyesh Pardaz]] · 2020 – 2023
-  Speech services and conversational AI in production; led a team of 10 engineers.
+- [[industry-experience/asr-gooyesh-pardaz|Asr Gooyesh Pardaz]] *(2020)* — Speech and conversational AI for commercial products.
+- [[industry-experience/microsoft-prose-internship|Microsoft PROSE — Applied Scientist Intern]] *(2026)* — Applied scientist internship on the PROSE (PROgram Synthesis using Examples) team.
+- [[industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]] *(2019)* — Co-founded and led development of open-source scientific tooling. Across the portfolio, projects have…
 
 ## Publications
 
-### Under submission
+- [[publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] *(UIST · 2026 · under submission)* — How users audit and retain control over AI agents acting inside spreadsheets. First-author work; co-authored…
+- [[publications/cognitive-biases-llm-programming|Cognitive Biases in LLM-Assisted Software Development]] *(ICSE · 2026)* — An observational study of 36 developers found that 48.8% of programming actions are biased, with over half of…
+- [[publications/advice-styles-contemplation|Did You Think This Through?: Effect of Varying Advice Styles on Users' Performance and Contemplation]] *(VL/HCC · 2026)* — A survey of 98 participants verifying factual claims with LLM advice presented in different rhetorical styles.…
+- [[publications/anthropomorphism-sycophancy-therapeutic-ai|How LLMs' Anthropomorphism and Sycophancy Compromise Expert Evaluation of Therapeutic AI]] *(EMNLP · 2026 · under submission)* — Examines how anthropomorphic and sycophantic model behavior distorts expert judgment of therapeutic AI systems…
+- [[publications/prompting-reflection|Prompting Reflection: Encouraging Users to Critically Evaluate AI Suggestions]] *(ToCHI · 2026 · under submission)* — Designs reflection-prompting strategies that push users toward more deliberate decisions rather than accepting…
+- [[publications/pymilo|PyMilo: A Python Library for ML I/O]] *(JOSS · 2026)* — Existing ML model storage formats — pickle and other binary formats — have real reliability, safety, and…
+- [[publications/synthesizing-program-analyzers|Synthesizing Program Analyzers to Help Programmers Answer Questions About Code]] *(ICSE · 2026 · under submission)* — A system bridging LLMs with CodeQL so novice programmers can interrogate large codebases. Uses RAG-based…
+- [[publications/beyond-the-page|Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions]] *(UIST · 2025)* — A research prototype pairing paper reading with informal social media insight, using LLMs to retrieve and label…
+- [[publications/eli-why|ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations]] *(ACL · 2025)* — A benchmark of 13.4K "why" questions testing whether language models can adapt explanations to learners of…
+- [[publications/ai-assisted-codebase-generation|Exploring the Challenges and Opportunities of AI-assisted Codebase Generation]] *(VL/HCC · 2025)* — Studies how LLMs reshape development through "vibe-coding" — building software by iteratively prompting rather…
+- [[publications/pahgen|PahGen: Generating Ancient Pahlavi Text via Grammar-Guided Zero-Shot Translation]] *(LoResMT@NAACL · 2025)* — Pahlavi (Middle Persian) has almost no digital presence and few linguistic resources, putting it at risk of…
+- [[publications/parsipy|ParsiPy: NLP Toolkit for Historical Persian Texts in Python]] *(ALP@NAACL · 2025)* — Historical languages resist standard NLP: complex orthography, fragmentary evidence, no standardized digital…
+- [[publications/persian-in-a-court|Persian in a Court: Benchmarking VLMs in Persian Multi-Modal Tasks]] *(EvalMMG · 2025)* — A benchmark evaluating vision-language models on Persian multi-modal tasks.
+- [[publications/reaxff-boron-clusters|ReaxFF Parameter Set for Boron Clusters and Icosahedral Boron Crystals]] *(Journal of Physical Chemistry C · 2025)* — Refines a ReaxFF parameter set so synthesis conditions for high-quality icosahedral boron crystals can be…
+- [[publications/samila|Samila: A Generative Art Generator]] *(arXiv · 2025)* — Samila generates images by randomly permuting many thousands of points, each positioned by a formula with…
+- [[publications/trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]] *(ICSE · 2025)* — A mixed-method study — a survey of 29 developers plus observation of 10 — on how developers define, evaluate,…
+- [[publications/fair-graph-clustering|A Semidefinite Relaxation Approach for Fair Graph Clustering]] *(KDD (Ethical AI Workshop) · 2024)* — A semidefinite relaxation for clustering graphs under fairness constraints — addressing discriminatory social…
+- [[publications/nafas|Nafas: Breathing Gymnastics Application]] *(arXiv · 2024)* — Technical report on Nafas, a set of breathing exercises for people at a computer for long hours, paired with…
+- [[publications/representative-sample-size-ks|Representative Sample Size for Estimating Saturated Hydraulic Conductivity via Machine Learning]] *(Water Resources Research · 2024)* — Hydrology adopted ML widely but rarely examined how data heterogeneity and sample size affect accuracy. Using…
+- [[publications/syntran-fa|SynTran-fa: Generating Comprehensive Answers for Farsi QA Pairs via Syntactic Transformation]] *(Preprints.org · 2024)* — Data augmentation for Farsi question answering: converts short QA pairs into full, complete answers by…
+- [[publications/naab-farsi-corpus|naab: A Ready-to-Use Plug-and-Play Corpus for Farsi]] *(JAIAI · 2024)* — A large, cleaned, ready-to-use open-source text corpus for Farsi — roughly 130GB, 250 million paragraphs, 15…
+- [[publications/speech-recognition-review|A Review of the Recent Speech Recognition Methods]] *(JVS · 2023)* — A literature review of contemporary speech recognition methods, growing out of the Farsi ASR and TTS systems…
+- [[publications/rater-agreement-metrics|A Literature Review on Rater Agreement Metrics]] *(pycm.io · 2022)* — Survey of rater agreement metrics, written to give PyCM users a clearer basis for choosing among them — part of…
+- [[publications/docalog|Docalog: Multi-Document Dialogue System Using Transformer-Based Span Retrieval]] *(DialDoc@ACL · 2022)* — The team's entry for the DialDoc-22 (MultiDoc2Dial) shared task, and the substance of Sadra's BSc thesis.…
+- [[publications/dbfc-dataset|Experimental Dataset of Electrochemical Efficiency of a Direct Borohydride Fuel Cell (DBFC)]] *(ChemRxiv · 2022)* — Impedance and polarization test data for a Direct Borohydride Fuel Cell across Pd/C, Pt/C, and Pd-decorated…
 
-- **[[publications/anthropomorphism-sycophancy-therapeutic-ai|How LLMs' Anthropomorphism and Sycophancy Compromise Expert Evaluation of Therapeutic AI]]** · EMNLP 2026  
-  **S Sabouri**, Y Daryani, S Haghighi, J May, M Dehghani, S Chattopadhyay
-- **[[publications/synthesizing-program-analyzers|Synthesizing Program Analyzers to Help Programmers Answer Questions About Code]]** · ICSE 2026  
-  A Nazari, **S Sabouri**, W B Zhu, R Jia, M Raghothaman, S Chattopadhyay
-- **[[publications/prompting-reflection|Prompting Reflection: Encouraging Users to Critically Evaluate AI Suggestions]]** · ToCHI 2026  
-  **S Sabouri**, Y Wang, F Gu, R Huang, AK Zhao, D Peskov, JB Graber, J May, JK Kummerfeld, S Chattopadhyay
-- **[[publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]]** · UIST 2026  
-  **S Sabouri**, Z Saghi, R Huang, S Maladi, E Eufracio, S Gulwani, S Chattopadhyay
+## Projects
 
-### Accepted and published
-
-- **[[publications/cognitive-biases-llm-programming|Cognitive Biases in LLM-Assisted Software Development]]** · ICSE 2026  
-  X Zhou, Z Saghi, **S Sabouri**, R Pandita, M McGuire, S Chattopadhyay
-- **[[publications/advice-styles-contemplation|Did You Think This Through?: Effect of Varying Advice Styles on Users' Performance and Contemplation]]** · VL/HCC 2026  
-  **S Sabouri**, JB Graber, J May, JK Kummerfeld, S Chattopadhyay
-- **[[publications/pymilo|PyMilo: A Python Library for ML I/O]]** · JOSS 2026  
-  AH Rostami, S Haghighi, **S Sabouri**, A Zolanvari
-- **[[publications/beyond-the-page|Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions]]** · UIST 2025  
-  R Huang, AK Zhao, Z Saghi, **S Sabouri**, S Chattopadhyay
-- **[[publications/eli-why|ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations]]** · ACL 2025  
-  B Joshi, K He, S Ramnath, **S Sabouri**, K Zhou, S Chattopadhyay, S Swayamdipta, X Ren
-- **[[publications/ai-assisted-codebase-generation|Exploring the Challenges and Opportunities of AI-assisted Codebase Generation]]** · VL/HCC 2025  
-  P Eibl, **S Sabouri**, S Chattopadhyay
-- **[[publications/pahgen|PahGen: Generating Ancient Pahlavi Text via Grammar-Guided Zero-Shot Translation]]** · LoResMT@NAACL 2025  
-  F Farsi, P Fazel, F Goshtasb, N Hajipour, **S Sabouri**, E Asgari, H Sameti
-- **[[publications/parsipy|ParsiPy: NLP Toolkit for Historical Persian Texts in Python]]** · ALP@NAACL 2025  
-  F Farsi, P Fazel, S Haghighi, **S Sabouri**, F Goshtasb, N Hajipour, E Asgari, H Sameti
-- **[[publications/persian-in-a-court|Persian in a Court: Benchmarking VLMs in Persian Multi-Modal Tasks]]** · EvalMMG 2025  
-  F Farsi, SS Motlagh, S Bali, **S Sabouri**, S Momtazi
-- **[[publications/reaxff-boron-clusters|ReaxFF Parameter Set for Boron Clusters and Icosahedral Boron Crystals]]** · Journal of Physical Chemistry C 2025  
-  A Ahmadisharaf, A CT van Duin, B Liu, D Evans, **S Sabouri**, J Comer
-- **[[publications/samila|Samila: A Generative Art Generator]]** · arXiv 2025  
-  **S Sabouri**, S Haghighi, E Masrour
-- **[[publications/trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]]** · ICSE 2025  
-  **S Sabouri**, P Eibl, X Zhou, M Ziyadi, N Medvidovic, L Lindemann, S Chattopadhyay
-- **[[publications/fair-graph-clustering|A Semidefinite Relaxation Approach for Fair Graph Clustering]]** · KDD (Ethical AI Workshop) 2024  
-  S Baharlouei, **S Sabouri**
-- **[[publications/nafas|Nafas: Breathing Gymnastics Application]]** · arXiv 2024  
-  **S Sabouri**, S Haghighi
-- **[[publications/representative-sample-size-ks|Representative Sample Size for Estimating Saturated Hydraulic Conductivity via Machine Learning]]** · Water Resources Research 2024  
-  A Ahmadisharaf, R Nematirad, **S Sabouri**, Y Pachepsky, B Ghanbarian
-- **[[publications/syntran-fa|SynTran-fa: Generating Comprehensive Answers for Farsi QA Pairs via Syntactic Transformation]]** · Preprints.org 2024  
-  F Farsi, **S Sabouri**, K Kashfipour, S Gooran, H Sameti, E Asgari
-- **[[publications/naab-farsi-corpus|naab: A Ready-to-Use Plug-and-Play Corpus for Farsi]]** · JAIAI 2024  
-  **S Sabouri**, E Rahmati, S Gooran, H Sameti
-- **[[publications/speech-recognition-review|A Review of the Recent Speech Recognition Methods]]** · JVS 2023  
-  H Hadian, S Gooran, **S Sabouri**, S Sadeghi, Y Amini, H Sameti
-- **[[publications/rater-agreement-metrics|A Literature Review on Rater Agreement Metrics]]** · pycm.io 2022  
-  A Zolanvari, S Haghighi, **S Sabouri**
-- **[[publications/docalog|Docalog: Multi-Document Dialogue System Using Transformer-Based Span Retrieval]]** · DialDoc@ACL 2022  
-  SH Alavian, A Satvaty, **S Sabouri**, E Asgari, H Sameti
-- **[[publications/dbfc-dataset|Experimental Dataset of Electrochemical Efficiency of a Direct Borohydride Fuel Cell (DBFC)]]** · ChemRxiv 2022  
-  S Hamidi, **S Sabouri**, S Haghighi, K Askari
-
-## Open-Source Projects
-
-Selected from [[industry-experience/open-science-laboratory|Open Science Laboratory]] and independent work.
-
-- **[[projects/art|Art]]** — ASCII art library · 2.5k+ stars, 13M+ downloads, on conda-forge
-- **[[projects/pycm|PyCM]]** — multi-class confusion matrix analysis · 126 forks, 3M+ downloads, a dependency of Keras and TensorBoard, used in 200+ papers
-- **[[projects/samila|Samila]]** — generative art · 1,100+ stars, traction in Web3/NFT communities
-- **[[projects/pymilo|PyMilo]]** — transparent, non-executable ML model serialization
-- **[[projects/memor|Memor]]** — conversational memory transfer across LLMs
-- **[[projects/nava|Nava]]** — dependency-free cross-platform sound engine · featured on the Real Python podcast
-- **[[projects/pyrgg|PyRGG]]** — random graph generation · adopted by 10+ research teams
-- **[[projects/naab|naab]]** — 130GB Farsi corpus · trained the first Farsi T5 models
-- **[[projects/opr|OPR]]** — primer design for bioinformatics · 18,000+ downloads
-
-Also [[projects/nafas|Nafas]], [[projects/tocount|ToCount]], [[projects/xnum|XNum]],
-[[projects/ipspot|IPSpot]], [[projects/drux|Drux]], [[projects/opem|OPEM]],
-[[projects/mytimer|MyTimer]], [[projects/mycoffee|Mycoffee]], and
-[[projects/sharif-wav2vec2|Sharif-Wav2Vec2.0]].
+- [[projects/art|Art — ASCII Art Library for Python]] *(2019)* — Does the "smart" placement of typed special characters and letters to form a visual shape spread over multiple…
+- [[projects/drux|Drux — Drug Release Analysis Framework]] *(2025)* — Simulates and visualizes drug release profiles with mathematical models — a simple, extensible, reproducible…
+- [[projects/ipspot|IPSpot — System IP Address Fetcher]] *(2025)* — Retrieves the system's IP address and location information. Supports public and private IPv4 and IPv6 detection…
+- [[projects/memor|Memor — Conversational Memory Across LLMs]] *(2025)* — Manages the memory of a user's interactions with LLMs. Users can tap the history of past conversations when…
+- [[projects/mytimer|MyTimer — A Timer for Command Line Enthusiasts]] *(2021)* — A simple but comprehensive timer for terminal users — set timers directly from the command line, for people who…
+- [[projects/mycoffee|Mycoffee — Coffee Brewing Recipes for Terminal Users]] — A community-based coffee recipe CLI application. Well received by the programming community on social networks,…
+- [[projects/nafas|Nafas — Breathing Gymnastics Application]] *(2021)* — A collection of breathing exercises for people spending long hours at a computer. Multiple breathing patterns…
+- [[projects/nava|Nava — OS-Native Sound Engine in Python]] *(2023)* — Plays sound in Python with no dependencies and no platform restrictions — cross-platform across Windows, macOS,…
+- [[projects/opem|OPEM — Open Source PEM Fuel Cell Simulation Tool]] *(2019)* — Models the performance of proton exchange membrane fuel cells. Combines static and dynamic models predicting…
+- [[projects/opr|OPR — Optimized Primer Design Tool]] *(2024)* — Consolidates primer design tooling for biologists and bioinformaticians — design, validate, and optimize…
+- [[projects/pycm|PyCM — Multi-Class Confusion Matrix Library]] *(2019)* — Post-classification model evaluation supporting most class and overall statistic parameters. Targeted at data…
+- [[projects/pymilo|PyMilo — Python Library for ML I/O]] *(2024)* — A flexible I/O interface for ML pipelines. The first ML serialization package to provide a safe and transparent…
+- [[projects/pyrgg|PyRGG — Python Random Graph Generator]] *(2019)* — Synthesizes random graphs for network simulation. Supports multiple graph file formats including DIMACS-Graph,…
+- [[projects/samila|Samila — Generative Art Generator]] *(2021)* — A Python prototyping tool for artists: creates images by randomly permuting thousands of points, each…
+- [[projects/sharif-wav2vec2|Sharif-Wav2Vec2.0 — Farsi Speech Recognition Model]] *(2022)* — Wav2Vec2.0 base model fine-tuned on 108 hours of Farsi audio from Common Voice. The token set and language…
+- [[projects/tocount|ToCount — Lightweight Token Estimator]] *(2025)* — Estimates token counts for LLM input using rule-based and ML methods. Built for prompt analysis, token…
+- [[projects/xnum|XNum — Universal Numeral System Converter]] *(2025)* — Converts digits across numeral systems — English, Persian, Hindi, Arabic-Indic, Bengali, and others.…
+- [[projects/naab|naab — Farsi Text Corpus]] *(2022)* — A large, cleaned, ready-to-use open-source Farsi text corpus: ~130GB, 250 million paragraphs, 15 billion words.…
 
 ## Honors and Awards
 
-- **[[honors-and-awards/tinker-research-grant|Tinker Research Grant]]** — Thinking Machines Lab · Jan 2026
-- **[[honors-and-awards/psf-grant-nava|PSF Software Development Grant]]** — Python Software Foundation, for Nava · Mar 2025
-- **[[honors-and-awards/nlnet-grant-pycm|NLnet Foundation Grant]]** — NGI0 Commons, for PyCM · Feb 2025
-- **[[honors-and-awards/trelis-grant-pycm|Trelis AI Micro-Grant]]** — for the PyCM API · Sep 2024
-- **[[honors-and-awards/psf-grant-art|PSF Software Development Grant]]** — Python Software Foundation, for Art · May 2024
-- **[[honors-and-awards/vector-scholarship-in-ai|Vector Scholarship in AI]]** — Vector Institute
-- **[[honors-and-awards/usc-presenter-viterbitrek|USC Presenter for ViterbiTrek]]** — USC Viterbi
+- [[honors-and-awards/nlnet-grant-pycm|NLnet Foundation Grant — PyCM]] *(2025)* — Funding to develop distance/similarity metrics and benchmarking in PyCM — statistical analysis of machine…
+- [[honors-and-awards/psf-grant-art|PSF Software Development Grant — Art]] *(2024)* — Funding to add multi-line and custom font features to the Art library.
+- [[honors-and-awards/psf-grant-nava|PSF Software Development Grant — Nava]] *(2025)* — Funding to develop OS-based sound engines for the Nava library. Part of the PSF's support for Python packages…
+- [[honors-and-awards/tinker-research-grant|Tinker Research Grant — Thinking Machines Lab]] *(2026)* — For fine-tuning and post-training large language models. The funded project is on Persian prosody-informed LLMs.
+- [[honors-and-awards/trelis-grant-pycm|Trelis AI Micro-Grant — PyCM]] *(2024)* — A development micro-grant to build an accessible RESTful API for PyCM, making the library usable by people not…
+- [[honors-and-awards/usc-presenter-viterbitrek|USC Presenter for ViterbiTrek]] — Selected as a USC presenter at ViterbiTrek, a Viterbi program connecting students with industry professionals.…
+- [[honors-and-awards/vector-scholarship-in-ai|Vector Scholarship in AI]] — Recognizes exceptional candidates in Vector Institute-recognized or AI-focused study paths.
 
-## Service
+## Services
 
-[[services/peer-review|Peer review]] across ten venues — CHI, IUI, UIST, C&C, HAI, TOSEM,
-The Journal of Systems & Software, JORS, IJHCI, and Nature Scientific Data.
+- [[services/peer-review|Peer Review]] — 
 
 ## Teaching and Outreach
 
-- **[[teaching-and-outreach/sharif-nlp-workshop|Workshop instructor]]** — NLP and speech processing, Sharif University of Technology
-- **[[teaching-and-outreach/stanford-code-in-place|Section leader]]** — global Python program, Stanford University
+- [[teaching-and-outreach/sharif-nlp-workshop|NLP and Speech Processing Workshop — Sharif University of Technology]] — Taught a session on natural language processing and speech processing.
+- [[teaching-and-outreach/stanford-code-in-place|Section Leader — Stanford Python Program]] — Section leader for a global program teaching the Python programming language.
 
 ## Talks
 
-- **[[talks/pycon-us-2026-memor-poster|PyCon US 2026]]** — Memor poster, Long Beach · May 2026
+- [[talks/pycon-us-2026-memor-poster|PyCon US 2026 — Memor Poster]] *(PyCon US · 2026)* — Presented Memor — managing and transferring conversational memory across LLMs.
 
 ## Skills
 
-[[skills/technical|Technical]] — Python, C/C++, Java, JavaScript/TypeScript; Transformers,
-PyTorch, TensorFlow, LangChain, DSPy; React, FastAPI, Flask, Django, Docker.
-
-[[skills/research-methods|Research methods]] — interviews, survey design, A/B testing,
-mixed-methods research, thematic analysis, parametric and nonparametric testing.
+- [[skills/research-methods|Research Methods]] — Study design: User interviews, surveys and questionnaire design, A/B testing, heuristic evaluation,…
+- [[skills/technical|Technical Skills]] — Programming languages: Python, C/C++, Java, JavaScript, TypeScript, HTML, CSS
 
 ## References
 
-[[references/souti-chattopadhyay|Souti Chattopadhyay]] (USC) ·
-[[references/jonathan-may|Jonathan May]] (USC ISI) ·
-[[references/nenad-medvidovic|Nenad Medvidovic]] (USC) ·
-[[references/jonathan-kummerfeld|Jonathan K. Kummerfeld]] (University of Sydney) ·
-[[references/sepand-haghighi|Sepand Haghighi]] (Open Science Laboratory)
+- [[references/jonathan-kummerfeld|Jonathan K. Kummerfeld]] — Affiliation: Assistant Professor of Computer Science, University of Sydney Relationship: Co-author on the…
+- [[references/jonathan-may|Jonathan May]] — Co-author on the advice-styles and reflection-prompting work, and on therapeutic AI.
+- [[references/nenad-medvidovic|Nenad Medvidovic]] — Affiliation: Professor of Computer Science, University of Southern California Relationship: Co-author on the…
+- [[references/sepand-haghighi|Sepand Haghighi]] — Co-author or co-maintainer on PyCM, Art, Samila, Nafas, PyRGG, PyMilo, MyTimer, and the therapeutic AI study.
+- [[references/souti-chattopadhyay|Souti Chattopadhyay]] — Co-author on the majority of the HCI work — trust dynamics, cognitive biases, codebase generation, reflection…
 
-Contact details available on request.
+*76 pages across 12 sections. Internal notes live outside the wiki and are not published.*

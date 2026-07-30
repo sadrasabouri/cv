@@ -63,6 +63,12 @@ jobs:
           npm ci
           npx quartz plugin install
 
+      # Quartz hardcodes an absolute content-index URL that 404s on a project
+      # site, silently killing the explorer, graph, and search. Fails the build
+      # if the pattern is gone, rather than deploying a dead site.
+      - name: Patch content-index URL for base-path deployment
+        run: python3 scripts/patch-base-path.py .quartz-engine/.quartz/plugins
+
       - name: Build site from wiki/
         working-directory: .quartz-engine
         run: npx quartz build -d "$GITHUB_WORKSPACE/wiki" -o "$GITHUB_WORKSPACE/public"

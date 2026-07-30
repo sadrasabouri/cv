@@ -9,6 +9,3 @@ tags: [usc, selection, outreach]
 
 Selected as a USC presenter at ViterbiTrek, a Viterbi program connecting students with industry
 professionals. Participated in a day tour of **SupplyFrame** and **TradeDesk**.
-
-> [!note] Gap
-> No year on file. Worth filling in.

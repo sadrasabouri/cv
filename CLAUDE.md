@@ -20,20 +20,30 @@ experiences in conversation; the LLM files them.
 ## Layout
 
 ```
+todo.md         open conflicts and gaps. Repo root, outside the wiki. NOT published.
 wiki/
-  index.md      THE CV — the public homepage. Published.
-  log.md        ingest history + open conflicts and gaps. NOT published.
+  index.md      catalog of every page, grouped by section. Published.
+  log.md        ingest history. NOT published.
   <section>/    one directory per CV section, one file per instance
 ```
 
-**`index.md` is a CV, not a catalog.** It is the first thing a recruiter, collaborator, or
-committee member sees. It reads top-to-bottom as a conventional CV — education, experience,
-publications, projects, awards, service, teaching, talks, skills — with every entry linking to
-its detail page. It is not a list of wiki pages with one-line hooks.
+**`index.md` is an index.** It catalogs every page in the wiki, grouped by section, each with
+a link and a one-line summary — the index file from the LLM-wiki pattern. It is not a rendered
+CV: the CV *is* the wiki, since every directory is a CV section and every page an entry. The
+sidebar explorer and the graph are the other two ways in.
 
-**`log.md` is never published.** Internal bookkeeping — what was ingested when, and the open
-conflicts and gaps table — stays off the public site. `ignorePatterns` in `quartz.config.yaml`
-excludes it. Never move conflict callouts, uncertainty notes, or TODOs into a published page.
+Regenerate it rather than hand-editing when many pages change; summaries come from each page's
+`## Summary`, or its first prose paragraph when there isn't one.
+
+**`log.md` is never published.** Internal bookkeeping — what was ingested when — stays off the
+public site. `ignorePatterns` in `quartz.config.yaml` excludes it.
+
+**Nothing in `wiki/` is ever provisional.** No TODOs, no "worth filling in", no "needs
+confirmation", no gap or conflict callouts, no bracketed placeholders — not on a published page,
+not in `log.md`. A wiki page states what is known, in finished prose, and says nothing about what
+isn't. Everything unresolved goes in **`todo.md` at the repo root**, which is outside `wiki/` and
+therefore can never be published by accident. When a page can't yet carry a fact, the page simply
+omits it and `todo.md` records the question.
 
 Current sections:
 
@@ -114,18 +124,19 @@ ParsiPy). These are **not** duplicates:
 Each links to the other. Do not restate adoption numbers on the publication page or
 findings on the project page.
 
-## Conflicts
+## Conflicts and gaps
 
-Sources disagree. When two facts collide, **never silently pick one**. Keep the page's main
-claim as the best-supported version and add:
+Sources disagree, and sources leave things out. Neither ever shows on a wiki page.
 
-```markdown
-> [!warning] Conflict
-> Web page says 13M+ downloads; CV says "over 10 million". Needs confirmation.
-```
+**Conflict.** Put the best-supported version on the page, stated plainly and without hedging —
+no ranges like "1.5k–2k stars" standing in for uncertainty. Then add a bullet to `todo.md`
+naming the page, what each source claimed, and which one the page went with.
 
-Resolve conflicts by asking Sadra during an ingest, then delete the callout. Open conflicts
-are listed in `index.md` so they stay visible.
+**Gap.** The page omits the fact entirely — no empty heading, no "year unknown". Add a bullet to
+`todo.md` naming the page and what's missing.
+
+Resolve both by asking Sadra during an ingest, then update the page and delete the bullet from
+`todo.md`.
 
 ## The one operation: ingest
 
@@ -141,12 +152,13 @@ accepted to X", "I started an internship at Y", "we released version 2 of Z").
 4. **Write or update** the owning page, then update every page that links to it.
 5. **Reconcile.** If the new information contradicts what's on a page, update the claim and
    note what changed — don't leave the old version standing unmarked.
-6. **Update the CV in `index.md`** — add the entry to the right section, in the same format as
-   its neighbours, linking to the detail page. Anything CV-worthy belongs here; if it isn't
-   worth a CV line, ask whether it belongs in the wiki at all.
+6. **Update the catalog in `index.md`** — add the page under its section with a link and a
+   one-line summary, matching its neighbours.
 7. **Append to `log.md`** using the exact prefix format:
    `## [YYYY-MM-DD] ingest | <short description>` followed by a bullet per page touched.
-8. **Report back**: which pages changed, and any conflict or gap worth Sadra's attention.
+8. **Update `todo.md`** — delete anything this ingest resolved, add a bullet for any new
+   conflict or gap. Never leave the question on the page itself.
+9. **Report back**: which pages changed, and any conflict or gap worth Sadra's attention.
 
 Stay conversational during ingest. Ask when the section is ambiguous, when a date or number
 is missing, or when the input contradicts something already filed.
@@ -182,6 +194,16 @@ The graph is a first-class way to navigate this wiki, so `showTags: false` is se
 local and global graph: ~135 tag nodes would swamp 77 real pages and hide the structure worth
 seeing. Keep pages densely cross-linked — the graph is only as good as the `## Related`
 sections.
+
+**`scripts/patch-base-path.py` is required for the site to work.** Quartz v5.0.0 hardcodes
+`fetch("/static/contentIndex.json")` in the explorer, graph, and search scripts. This site is a
+GitHub *project* page served under `/cv/`, so that absolute path hits the domain root and 404s,
+and all three components silently do nothing — everything server-rendered still looks fine,
+which is what makes it hard to notice. The script rewrites the URL to be relative to the page's
+own depth, using `<body data-slug>`. Both `scripts/preview.sh` and the deploy workflow run it,
+and it patches the plugins' `dist/` as well as `src/` — Quartz bundles from `dist`, so patching
+`src` alone does nothing. It exits non-zero if the pattern disappears, so an upstream fix fails
+the build loudly instead of shipping a dead site.
 - `quartz.lock.json` — pinned plugin versions.
 - `.github/workflows/deploy.yml` — builds on every push to `main` that touches `wiki/`.
   Quartz is fetched at a pinned tag into `.quartz-engine/` and never committed.

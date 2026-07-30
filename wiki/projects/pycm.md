@@ -14,7 +14,7 @@ Post-classification model evaluation supporting most class and overall statistic
 Targeted at data scientists who need a broad array of metrics to accurately evaluate a wide
 variety of classifiers.
 
-**Adoption:** 1.5k–2k GitHub stars, 126 forks, 3M+ downloads. Added to **conda-forge**. Adopted
+**Adoption:** 2k+ GitHub stars, 126 forks, 3M+ downloads. Added to **conda-forge**. Adopted
 as a dependency by **Keras** and **TensorBoard**. Used in **200+ research papers**, mostly
 medical, for comparing classification models.
 
@@ -23,9 +23,6 @@ medical, for comparing classification models.
 
 ## Links
 [GitHub](https://github.com/sepandhaghighi/pycm) · [PyPI](http://pepy.tech/project/pycm)
-
-> [!warning] Conflict
-> Sources give both "1.5k+ stars / 3M+ downloads" and "2k+ stars / 2M+ downloads". Needs confirmation.
 
 ## Related
 [[../publications/rater-agreement-metrics|A Literature Review on Rater Agreement Metrics]] — technical report supporting the library.
