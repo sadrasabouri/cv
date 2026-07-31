@@ -21,10 +21,5 @@ Speech and conversational AI for commercial products:
   Collected **20 hours of Farsi audio with transcriptions**, each annotated by at least two
   crowd-sourced users.
 
-> [!note] Source artifact
-> The source CV listed this employer three times (ML Engineer, Back-end Engineer, Product
-> Designer) with the same three bullets reworded. Unified here under the single real role,
-> ML Engineer Intern.
-
 ## Related
 [[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]] — concurrent academic Farsi speech work.

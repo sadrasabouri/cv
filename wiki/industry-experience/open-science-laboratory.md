@@ -33,12 +33,6 @@ See [[../projects/art|Art — ASCII Art Library for Python]], [[../projects/pycm
 [[../projects/pyrgg|PyRGG — Python Random Graph Generator]], [[../projects/opr|OPR — Optimized Primer Design Tool]], [[../projects/nafas|Nafas — Breathing Gymnastics Application]], [[../projects/mycoffee|Mycoffee — Coffee Brewing Recipes for Terminal Users]],
 and others.
 
-> [!note] Source artifact
-> The source CV listed this organization three times under different role framings
-> (Full-stack Developer, Software Engineer, Data Scientist) with overlapping project bullets —
-> a CV-variant artifact. Unified here under the single real role, co-founder, with those
-> framings kept as facets of what the role covers. Per-project detail lives on the project pages.
-
 ## Related
 [[../profile/open-source-philosophy|Open Source Philosophy]] — why this exists.
 [[../references/sepand-haghighi|Sepand Haghighi]] — long-running collaborator.

@@ -2,15 +2,12 @@
 title: "Index"
 ---
 
-A catalog of everything in this wiki. Each directory is a CV section; each page inside it is
-one instance of that section. Browse the sections in the sidebar, or follow the **graph** to
-see how pages connect.
+Browse the sections in the sidebar, or follow the **graph** to see how pages connect.
 
 ## Profile
 
 - [[profile/open-source-philosophy|Open Source Philosophy]] — Open-sourcing NLP research produced breakthroughs like ChatGPT — but generative AI also makes it cheap to…
 - [[profile/research-agenda|Research Agenda]] — The core problem: how to integrate AI systems into human workflows. Specifically, one question — what is the…
-- [[profile/sadra-sabouri|Sadra Sabouri]] — Working at the intersection of HCI and NLP, on making AI a better collaborator for people. Co-leads an…
 
 ## Education
 

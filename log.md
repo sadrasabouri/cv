@@ -166,3 +166,18 @@ Replaced the whole custom build with `konstfish/quartz-build-action`.
   still resolve correctly, including the three basenames that exist in both `projects/` and
   `publications/` (pymilo, samila, nafas). Verified on the deployed site.
 - Trade-off accepted: no local preview and no pinned Quartz version.
+
+## [2026-07-31] cleanup | Provenance notes and the identity page removed
+
+Sadra deleted `wiki/profile/sadra-sabouri` and the two "Source artifact" callouts on the
+industry-experience pages. Followed through on the rest:
+
+- Removed the two remaining provenance callouts of the same kind — the "Title history" note on
+  `publications/cognitive-biases-llm-programming` and the "Venue history" note on
+  `publications/advice-styles-contemplation`. Both described what the source documents said
+  rather than the work itself. No callouts of any kind remain in `wiki/`.
+- Collapsed the blank lines left where the deleted callouts had been.
+- Checked for fallout from the deleted page: no inbound links to it remained, 264 wikilinks all
+  resolve, and no page is orphaned.
+- Contact details and profile links (email, GitHub, LinkedIn, Scholar, Twitter, Stack Overflow,
+  IMDB) are now absent from `wiki/` entirely, since that page owned them.

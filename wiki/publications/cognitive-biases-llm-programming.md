@@ -20,10 +20,6 @@ builders.
 ## Links
 [Paper](https://arxiv.org/abs/2601.08045)
 
-> [!note] Title history
-> The CV carries an earlier working title, "Biased by Design: Impact of Cognitive Biases in
-> LLM-Assisted Programming". The title above is the real one.
-
 ## Related
 [[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — the research thread.
 [[trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]] — earlier study in the same line.
