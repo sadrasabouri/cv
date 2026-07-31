@@ -151,5 +151,18 @@ Replaced the whole custom build with `konstfish/quartz-build-action`.
 - `log.md` moved from `wiki/` to the repo root. Privacy no longer depends on an `ignorePatterns`
   entry being correct — only `wiki/` is published, so anything outside it is private by
   construction.
-- Trade-off accepted: no local preview, no pinned Quartz version, and no control over Quartz
-  settings unless a config file is passed to the action.
+- Uses `konstfish/quartz-build-action@v7`, not v6. v6 pins nothing: its Dockerfile clones
+  Quartz's default branch, which is now v5, then runs `npm ci --only=production` — esbuild is a
+  devDependency in v5, so `quartz create` fails and the Docker build never completes. v7 pins
+  the ref to v4 and drops `--only=production`. It builds Quartz v4.5.2.
+- `page_base_url` is not set: the action substitutes it into a `sed s///` expression without
+  escaping, so any value containing `/` fails with "bad option in substitution expression".
+  Consequence: `baseUrl` stays at the action's default, so sitemap and RSS carry example.com
+  URLs. Navigation is unaffected — Quartz v4 emits relative links throughout.
+- Quartz v4 does not have v5's base-path bug: it emits depth-correct relative paths
+  (`./static/...` at the root, `../static/...` one level down), so the explorer, graph and
+  search all load their data correctly under `/cv/`. The patch script is no longer needed.
+- `markdownLinkResolution` is `shortest` (the action hardcodes it) but the relative wikilinks
+  still resolve correctly, including the three basenames that exist in both `projects/` and
+  `publications/` (pymilo, samila, nafas). Verified on the deployed site.
+- Trade-off accepted: no local preview and no pinned Quartz version.
