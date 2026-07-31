@@ -31,7 +31,6 @@ jobs:
           source: wiki
           destination: public
           page_title: Sadra Sabouri
-          page_base_url: sadrasabouri.github.io/cv
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
