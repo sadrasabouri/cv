@@ -18,7 +18,7 @@ organized into three threads, each with its own page. Portions of the software-e
 thread were funded by the **Amazon AGI Center**.
 
 ## Threads
-[[ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — how developers trust and work with code agents.
+[[ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — how developers and other knowledge workers trust and oversee AI in their tools.
 [[ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — how AI presentation shapes decisions.
 [[ace-lab-ai-for-education|Thread: AI for Education]] — how AI explains things to people of differing expertise.
 

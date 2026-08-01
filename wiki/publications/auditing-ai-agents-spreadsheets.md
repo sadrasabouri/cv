@@ -15,4 +15,4 @@ work; co-authored with Sumit Gulwani, connecting to the Microsoft PROSE internsh
 
 ## Related
 [[../industry-experience/microsoft-prose-internship|Microsoft PROSE — Applied Scientist Intern]] — Sumit Gulwani co-authorship, summer 2026.
-[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — same thread of agent-integration work.
+[[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — the research thread; this study takes the oversight question to users who do not write code.

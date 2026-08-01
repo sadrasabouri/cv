@@ -15,5 +15,5 @@ Uses RAG-based iterative query generation with self-testing. In a user study wit
 engineers it **increased task accuracy 3.7×** while **cutting completion time 32%**.
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — contributed as an educational research prototype.
+[[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — contributed as an educational research prototype.
 [[../research-experience/ace-lab-ai-for-education|Thread: AI for Education]] — also part of the education thread.

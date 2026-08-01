@@ -24,5 +24,5 @@ software a more collaborative thing than it has been.
 [Paper](https://arxiv.org/pdf/2508.07966)
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — the research thread.
+[[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — the research thread.
 [[cognitive-biases-llm-programming|Cognitive Biases in LLM-Assisted Software Development]] — parallel study on the same population.

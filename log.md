@@ -291,3 +291,24 @@ Deduplicated along the way: "C" / "C (Programming Language)", "Speech Recognitio
 at the University of Sydney, a Teaching Assistant role at USC, and an apparent second Microsoft
 experience. All three are recorded in `todo.md`; none got a page, since a skills list is too
 thin to write an experience from.
+
+## [2026-08-01] change | Software-engineering thread reframed as knowledge work
+
+Sadra's observation: the thread had grown past its own name. The spreadsheet-agents study has
+spreadsheet users as subjects, not developers, so "Human-AI Interaction in Software Engineering"
+described the first four studies rather than the thread.
+
+- Renamed `research-experience/ace-lab-human-ai-software-engineering` →
+  `ace-lab-human-ai-knowledge-work`, retitled **Thread: Human-AI Interaction in Knowledge Work**.
+  The old slug is kept as an `aliases:` entry so the published URL redirects rather than 404s —
+  Quartz v4 has `AliasRedirects` in its default emitters.
+- The spreadsheet study was only a `## Related` link before. It is now the fifth study in the
+  thread, described as taking the oversight question to a population that does not write code.
+- Reframed the opening: the thread is about people who already have a job to do, and knowledge
+  work is the level the findings generalise at.
+- Relinked all eight inbound references and reworded two annotations that described the older,
+  narrower scope.
+
+`profile/research-agenda` still lists the domain as "Developers working with code agents",
+because that wording is from Sadra's own site. Left as-is — the domain is one part of the
+broadened thread, not a contradiction of it.

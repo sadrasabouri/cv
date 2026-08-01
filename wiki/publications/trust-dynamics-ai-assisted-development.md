@@ -30,5 +30,5 @@ at developer–AI collaboration rather than at the model itself.
 [Paper](https://www.amazon.science/publications/trust-dynamics-in-ai-assisted-development-definitions-factors-and-implications)
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — first study in the thread; partially funded by the Amazon AGI center.
+[[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — first study in the thread; partially funded by the Amazon AGI center.
 [[../references/nenad-medvidovic|Nenad Medvidovic]] — co-author.

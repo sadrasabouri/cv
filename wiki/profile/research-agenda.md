@@ -26,7 +26,7 @@ human work.
 ## Domains
 Four so far, each one a setting where LLMs arrived fast and sat badly:
 
-- Developers working with code agents → [[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]]
+- Developers working with code agents → [[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]]
 - Decision-makers leaning on AI advisors → [[../research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]]
 - Patients trying to reconcile contradictory medical advice → [[../publications/anthropomorphism-sycophancy-therapeutic-ai|How LLMs' Anthropomorphism and Sycophancy Compromise Expert Evaluation of Therapeutic AI]]
 - People asking the same question from very different starting points of knowledge → [[../research-experience/ace-lab-ai-for-education|Thread: AI for Education]]

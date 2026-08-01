@@ -24,5 +24,5 @@ things developers and the people building these tools can do about them.
 [Paper](https://arxiv.org/abs/2601.08045)
 
 ## Related
-[[../research-experience/ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — the research thread.
+[[../research-experience/ace-lab-human-ai-knowledge-work|Thread: Human-AI Interaction in Knowledge Work]] — the research thread.
 [[trust-dynamics-ai-assisted-development|Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications]] — earlier study in the same line.
