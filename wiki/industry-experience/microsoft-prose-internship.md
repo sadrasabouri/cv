@@ -19,3 +19,4 @@ Synthesis using Examples) team, working with Sumit Gulwani.
 
 ## Related
 [[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — submission co-authored with Gulwani, from this line of work.
+[[../references/sumit-gulwani|Sumit Gulwani]] — who Sadra worked with on the team.

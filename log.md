@@ -312,3 +312,15 @@ described the first four studies rather than the thread.
 `profile/research-agenda` still lists the domain as "Developers working with code agents",
 because that wording is from Sadra's own site. Left as-is — the domain is one part of the
 broadened thread, not a contradiction of it.
+
+## [2026-08-01] ingest | Sumit Gulwani added to references
+
+- Created `references/sumit-gulwani` — Microsoft PROSE team; hosted and worked with Sadra during
+  the summer 2026 applied scientist internship, and co-author on the spreadsheet-agents
+  submission that came out of it.
+- Linked from `industry-experience/microsoft-prose-internship` and
+  `publications/auditing-ai-agents-spreadsheets`, and added to the index.
+
+Affiliation is given as "Microsoft PROSE team", which is what the wiki actually records. No
+title was assigned, since none of the sources state one. No contact details, per the standing
+rule that recommenders get a name, role, and affiliation only.
