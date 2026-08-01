@@ -12,6 +12,10 @@ domain: chemistry
 **Full name:** Open-Source PEMFC Simulation Tool
 **Domain:** Chemical data science — the tooling strand alongside the DBFC dataset and the ReaxFF boron work
 
+[![GitHub stars](https://img.shields.io/github/stars/ECSIM/opem.svg?style=social&logo=github&label=Stars)](https://github.com/ECSIM/opem)
+[![GitHub forks](https://img.shields.io/github/forks/ECSIM/opem.svg?style=social&logo=github&label=Forks)](https://github.com/ECSIM/opem)
+[![PyPI downloads](https://static.pepy.tech/badge/opem)](https://pepy.tech/project/opem)
+
 ## Summary
 OPEM, the Open-Source PEMFC Simulation Tool, evaluates how a proton exchange membrane fuel cell
 performs and predicts its optimum operating parameters. It bundles both static and dynamic

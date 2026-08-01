@@ -11,6 +11,10 @@ domain: nlp
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Distribution:** Python package, on GitHub and PyPI
 
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/memor.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/memor)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/memor.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/memor)
+[![PyPI downloads](https://static.pepy.tech/badge/memor)](https://pepy.tech/project/memor)
+
 ## Summary
 Manages the memory of a user's interactions with LLMs. Users can tap the history of past
 conversations when prompting, select specific parts of an exchange with one model, and carry

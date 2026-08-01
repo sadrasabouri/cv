@@ -9,7 +9,10 @@ domain: machine-learning
 
 **Role:** Co-developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
-**Adoption:** 13k+ downloads.
+
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/pymilo.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/pymilo)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/pymilo.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/pymilo)
+[![PyPI downloads](https://static.pepy.tech/badge/pymilo)](https://pepy.tech/project/pymilo)
 
 ## Summary
 A flexible I/O interface for ML pipelines, built around one problem: saving a model with

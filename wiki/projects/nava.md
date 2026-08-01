@@ -11,9 +11,13 @@ domain: speech
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Platforms:** Windows, macOS, Linux
 **Dependencies:** None
-**Adoption:** 30k+ downloads. Recognized on the **Real Python podcast** as one of the host's
-favorite libraries of the week.
+**Adoption:** Recognized on the **Real Python podcast** as one of the host's favorite
+libraries of the week.
 **Funding:** [[../honors-and-awards/psf-grant-nava|PSF Software Development Grant — Nava]] — PSF grant for OS-based sound engines (Mar 2025).
+
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/nava.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/nava)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/nava.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/nava)
+[![PyPI downloads](https://static.pepy.tech/badge/nava)](https://pepy.tech/project/nava)
 
 ## Summary
 Nava plays sound in Python with no dependencies and no platform restrictions, on Windows,

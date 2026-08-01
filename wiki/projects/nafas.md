@@ -12,6 +12,10 @@ domain: hci
 **Built with:** [[../references/sepand-haghighi|Sepand Haghighi]]
 **Domain:** Human-computer interaction — grouped with [[mytimer|MyTimer — A Timer for Command Line Enthusiasts]] in the HCI strand of Sadra's open-source portfolio
 
+[![GitHub stars](https://img.shields.io/github/stars/sepandhaghighi/nafas.svg?style=social&logo=github&label=Stars)](https://github.com/sepandhaghighi/nafas)
+[![GitHub forks](https://img.shields.io/github/forks/sepandhaghighi/nafas.svg?style=social&logo=github&label=Forks)](https://github.com/sepandhaghighi/nafas)
+[![PyPI downloads](https://static.pepy.tech/badge/nafas)](https://pepy.tech/project/nafas)
+
 ## Summary
 Nafas is a collection of breathing exercises for people who have been sitting at a computer for
 too many hours. It walks the user through several different breathing patterns, gets oxygen back
@@ -21,7 +25,6 @@ a refreshed, energetic workday and improved concentration through raised oxygen 
 User studies were run to measure the effect of the exercises, and the product was updated on
 what they showed, so the shipped patterns reflect measured results rather than only the
 original design.
-
 
 ## Links
 [GitHub](https://github.com/sepandhaghighi/nafas) · [PyPI](http://pepy.tech/project/nafas)

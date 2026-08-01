@@ -11,6 +11,10 @@ domain: nlp
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Distribution:** Python package, on GitHub and PyPI
 
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/tocount.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/tocount)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/tocount.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/tocount)
+[![PyPI downloads](https://static.pepy.tech/badge/tocount)](https://pepy.tech/project/tocount)
+
 ## Summary
 Estimates token counts for LLM input using rule-based and ML methods. Built for prompt
 analysis, token budgeting, and optimizing interactions with token-metered systems.

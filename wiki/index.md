@@ -2,13 +2,7 @@
 title: "Index"
 ---
 
-Sadra works on making AI a better friend to humans, and co-leads an open-source team that
-builds scientific tools — mostly because they wanted those tools to exist and nobody was
-making them. The work runs along two threads: [[profile/research-agenda|Research Agenda]]
-(*AI Integration Challenges*) and [[profile/open-source-philosophy|Open Source Philosophy]]
-(*Open World Development*).
-
-This page catalogs every page in the wiki. Browse the sections in the sidebar, or follow the
+This page catalogs every page in Sadra's wiki version of his CV. Browse the sections in the sidebar, or follow the
 **graph** to see how pages connect.
 
 ## Profile
@@ -121,5 +115,3 @@ This page catalogs every page in the wiki. Browse the sections in the sidebar, o
 - [[references/nenad-medvidovic|Nenad Medvidovic]] — Affiliation: Professor of Computer Science, University of Southern California Relationship: Co-author on the…
 - [[references/sepand-haghighi|Sepand Haghighi]] — Co-author or co-maintainer on PyCM, Art, Samila, Nafas, PyRGG, PyMilo, MyTimer, and the therapeutic AI study.
 - [[references/souti-chattopadhyay|Souti Chattopadhyay]] — Co-author on the majority of the HCI work — trust dynamics, cognitive biases, codebase generation, reflection…
-
-*75 pages across 12 sections. Internal notes live outside the wiki and are not published.*

@@ -11,6 +11,10 @@ domain: biomedical
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Domain:** Biomedical data science — grouped with [[opr|OPR — Optimized Primer Design Tool]]
 
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/drux.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/drux)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/drux.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/drux)
+[![PyPI downloads](https://static.pepy.tech/badge/drux)](https://pepy.tech/project/drux)
+
 ## Summary
 Drux simulates and plots drug release profiles from mathematical models — a simple, extensible,
 reproducible platform for quantitative analysis in pharmaceutical research. Simulation and

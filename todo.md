@@ -7,17 +7,16 @@ Resolve during an ingest by asking Sadra, then update the owning page and delete
 
 ## Conflicts — a claim is on the page but the sources disagreed
 
-- **`wiki/projects/art`** — sources gave both "13M+" and "over 10 million" downloads, and both
-  "2.5k+" and "2k+" stars. Page currently claims **2.5k+ stars, 13M+ downloads** (higher figures
-  taken as the more recent). Confirm against GitHub/PyPI.
-- **`wiki/projects/pycm`** — sources gave both "1.5k+ stars / 3M+ downloads" and
-  "2k+ stars / 2M+ downloads". Page currently claims **2k+ stars, 3M+ downloads**. Confirm
-  against GitHub/PyPI.
+None open. The star/fork/download disagreements on `wiki/projects/art` and `wiki/projects/pycm`
+are resolved: those counts are no longer written into the pages at all. Every project page now
+carries live shields.io and pepy.tech badges, so GitHub and PyPI are the source of truth and the
+figures cannot go stale again.
 
 ## Gaps — something a CV line normally carries is absent
 
-- **`wiki/projects/mycoffee`** — no GitHub/PyPI link, star count, or download count. Present
-  only in the source CV, not the web page.
+- **`wiki/projects/mycoffee`** — no GitHub/PyPI link. It is the only project without live
+  badges, because neither source names its repository. Present in the CV document only, not on
+  the web page.
 - **`wiki/honors-and-awards/vector-scholarship-in-ai`** — no year. The announcement post linked
   from the CV was also not captured.
 - **`wiki/honors-and-awards/usc-presenter-viterbitrek`** — no year.

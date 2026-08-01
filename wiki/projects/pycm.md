@@ -9,13 +9,17 @@ domain: machine-learning
 
 **Role:** Co-developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
-**Adoption:** 2k+ GitHub stars, 126 forks, 3M+ downloads. Added to **conda-forge**. Adopted
-as a dependency by **Keras** and **TensorBoard**. Used in **200+ research papers**, mostly
-medical, for comparing classification models.
+**Adoption:** Added to **conda-forge**. Adopted as a dependency by **Keras** and
+**TensorBoard**. Used in **200+ research papers**, mostly medical, for comparing classification
+models.
 **Funding:** [[../honors-and-awards/nlnet-grant-pycm|NLnet Foundation Grant — PyCM]] — funded by
 NGI0 Commons for distance similarity and benchmarking (Feb 2025), and
 [[../honors-and-awards/trelis-grant-pycm|Trelis AI Micro-Grant — PyCM]] — a development
 micro-grant to build a RESTful API for PyCM (Sep 2024).
+
+[![GitHub stars](https://img.shields.io/github/stars/sepandhaghighi/pycm.svg?style=social&logo=github&label=Stars)](https://github.com/sepandhaghighi/pycm)
+[![GitHub forks](https://img.shields.io/github/forks/sepandhaghighi/pycm.svg?style=social&logo=github&label=Forks)](https://github.com/sepandhaghighi/pycm)
+[![PyPI downloads](https://static.pepy.tech/badge/pycm)](https://pepy.tech/project/pycm)
 
 ## Summary
 PyCM evaluates classifiers after the fact: it works from the predictions a model has already

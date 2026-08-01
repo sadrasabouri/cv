@@ -10,7 +10,10 @@ domain: biomedical
 **Role:** Developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Domain:** Biomedical data science — grouped with [[drux|Drux — Drug Release Analysis Framework]]
-**Adoption:** 18,000+ downloads.
+
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/opr.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/opr)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/opr.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/opr)
+[![PyPI downloads](https://static.pepy.tech/badge/opr)](https://pepy.tech/project/opr)
 
 ## Summary
 OPR designs, validates, and optimizes primers for PCR, qPCR, and sequencing, consolidating

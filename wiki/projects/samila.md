@@ -10,8 +10,12 @@ domain: art
 **Role:** Creator / co-developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Domain:** Art — generative image making in Python
-**Adoption:** 1,100+ GitHub stars, 36,000+ downloads. Gained significant traction in Web3 and
-NFT communities, with multiple community YouTube tutorials within the first three months.
+**Adoption:** Gained significant traction in Web3 and NFT communities, with multiple community
+YouTube tutorials within the first three months.
+
+[![GitHub stars](https://img.shields.io/github/stars/sepandhaghighi/samila.svg?style=social&logo=github&label=Stars)](https://github.com/sepandhaghighi/samila)
+[![GitHub forks](https://img.shields.io/github/forks/sepandhaghighi/samila.svg?style=social&logo=github&label=Forks)](https://github.com/sepandhaghighi/samila)
+[![PyPI downloads](https://static.pepy.tech/badge/samila)](https://pepy.tech/project/samila)
 
 ## Summary
 Samila is a Python prototyping tool for artists: it makes an image by scattering many thousands

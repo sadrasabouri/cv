@@ -216,3 +216,33 @@ instruction forbade. All were removed. The worst were outright wrong:
 
 Schema updated with an explicit no-padding rule, and the old ~40-line limit replaced: a page
 must now carry whatever a link or badge would have told the reader.
+
+## [2026-08-01] change | Live badges replace hardcoded adoption counts
+
+Star, fork, and download figures were written into the project pages as prose, so they went
+stale the moment they were written. All 15 project pages with a GitHub repo and a PyPI package
+now carry live shields.io and pepy.tech badges instead, placed between the fact block and
+`## Summary`.
+
+The stale numbers were removed rather than kept alongside the badges, since a hardcoded count
+next to a live one eventually contradicts it. How stale they were, measured against the badges:
+
+| Project | Page claimed | Actually |
+|---|---|---|
+| Art | 13M+ downloads, 141 forks | 25M, 156 |
+| PyCM | 2k+ stars, 3M+ downloads | 1.5k, 4M |
+| Nava | 30k+ downloads | 78k |
+| PyRGG | 209 stars, 42,000+ downloads | 222, 55k |
+| OPR | 18,000+ downloads | 26k |
+| PyMilo | 13k+ downloads | 21k |
+| Samila | 1,100+ stars, 36,000+ downloads | 1.2k, live |
+
+Qualitative adoption facts that no badge can express were kept — conda-forge, the Keras and
+TensorBoard dependency, 200+ research papers, the Real Python podcast mention, the Web3/NFT
+reception, the 10+ research teams using PyRGG.
+
+Not badged: `projects/mycoffee` (no repository named in either source), and `projects/naab` and
+`projects/sharif-wav2vec2`, which live on Hugging Face — its badges are static labels carrying
+no counts, so they would not auto-update.
+
+This closes both open conflicts in `todo.md`; that section is now empty.

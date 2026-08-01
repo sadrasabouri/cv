@@ -11,6 +11,10 @@ domain: network
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Domain:** Network tooling — a Python tool to fetch the system's IP address
 
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/ipspot.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/ipspot)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/ipspot.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/ipspot)
+[![PyPI downloads](https://static.pepy.tech/badge/ipspot)](https://pepy.tech/project/ipspot)
+
 ## Summary
 IPSpot tells you your system's IP address and where it looks like you are. It reports the
 private address the machine holds on its own network as well as the public address the rest of

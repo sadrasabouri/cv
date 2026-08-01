@@ -10,8 +10,12 @@ domain: network
 **Role:** Developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Domain:** Network tooling — synthetic graph data for network simulation
-**Adoption:** 209 GitHub stars, 42,000+ downloads. Adopted by **10+ research teams worldwide**
-for generating synthetic data in social network simulations.
+**Adoption:** Adopted by **10+ research teams worldwide** for generating synthetic data in
+social network simulations.
+
+[![GitHub stars](https://img.shields.io/github/stars/sepandhaghighi/pyrgg.svg?style=social&logo=github&label=Stars)](https://github.com/sepandhaghighi/pyrgg)
+[![GitHub forks](https://img.shields.io/github/forks/sepandhaghighi/pyrgg.svg?style=social&logo=github&label=Forks)](https://github.com/sepandhaghighi/pyrgg)
+[![PyPI downloads](https://static.pepy.tech/badge/pyrgg)](https://pepy.tech/project/pyrgg)
 
 ## Summary
 PyRGG makes up random graphs for network simulation: it synthesizes graph data for people who

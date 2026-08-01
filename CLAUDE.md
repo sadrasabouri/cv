@@ -35,8 +35,9 @@ a link and a one-line summary — the index file from the LLM-wiki pattern. It i
 CV: the CV *is* the wiki, since every directory is a CV section and every page an entry. The
 sidebar explorer and the graph are the other two ways in.
 
-Regenerate it rather than hand-editing when many pages change; summaries come from each page's
-`## Summary`, or its first prose paragraph when there isn't one.
+Regenerate the catalog body rather than hand-editing it when many pages change; summaries come
+from each page's `## Summary`, or its first prose paragraph when there isn't one. **The intro
+paragraph above the first `##` is Sadra's own — leave it alone when regenerating.**
 
 **`log.md` is never published.** Internal bookkeeping — what was ingested when — lives at the
 repo root, outside `wiki/`, so it cannot be published by accident.
@@ -112,8 +113,19 @@ Rules:
 - Always annotate a link with a clause saying why the connection exists.
 - `status` vocabulary: `accepted`, `published`, `under-submission`, `in-preparation`,
   `active`, `completed`, `ongoing`, `awarded`.
-- Numbers (download counts, stars, participant counts, dates) belong in the body with the
-  date they were true, not only in frontmatter.
+- **Never write star, fork, or download counts as prose.** Every project page carries live
+  shields.io and pepy.tech badges instead, so GitHub and PyPI stay the source of truth and the
+  numbers cannot go stale. A hardcoded count next to a live badge will eventually contradict it.
+  Other numbers — participant counts, dataset sizes, dates — do belong in the body, with the
+  date they were true.
+- New project page: add the badge block between the fact block and `## Summary`, derived from
+  the page's own GitHub and PyPI links:
+
+  ```markdown
+  [![GitHub stars](https://img.shields.io/github/stars/ORG/REPO.svg?style=social&logo=github&label=Stars)](https://github.com/ORG/REPO)
+  [![GitHub forks](https://img.shields.io/github/forks/ORG/REPO.svg?style=social&logo=github&label=Forks)](https://github.com/ORG/REPO)
+  [![PyPI downloads](https://static.pepy.tech/badge/PKG)](https://pepy.tech/project/PKG)
+  ```
 - **A page must stand on its own.** Assume the reader cannot click a link, cannot open a repo,
   and cannot see a badge. Whatever a link or badge would have told them goes in the prose.
   Length is not the constraint; a page runs as long as the material it actually has.

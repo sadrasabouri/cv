@@ -11,6 +11,10 @@ domain: nlp
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
 **Distribution:** Python package, on GitHub and PyPI
 
+[![GitHub stars](https://img.shields.io/github/stars/openscilab/xnum.svg?style=social&logo=github&label=Stars)](https://github.com/openscilab/xnum)
+[![GitHub forks](https://img.shields.io/github/forks/openscilab/xnum.svg?style=social&logo=github&label=Forks)](https://github.com/openscilab/xnum)
+[![PyPI downloads](https://static.pepy.tech/badge/xnum)](https://pepy.tech/project/xnum)
+
 ## Summary
 Converts digits across numeral systems — English, Persian, Hindi, Arabic-Indic, Bengali, and
 others. Auto-detects mixed formats and converts only the numbers, leaving surrounding text
