@@ -9,12 +9,23 @@ domain: biomedical
 
 **Role:** Developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
+**Domain:** Biomedical data science — grouped with [[opr|OPR — Optimized Primer Design Tool]]
 
-Simulates and visualizes drug release profiles with mathematical models — a simple,
-extensible, reproducible platform for quantitative analysis in pharmaceutical research.
+## Summary
+Drux simulates and plots drug release profiles from mathematical models — a simple, extensible,
+reproducible platform for quantitative analysis in pharmaceutical research. Simulation and
+plotting are both part of the tool, so a release model goes from parameters to a figure without
+leaving the framework.
+
+Two commitments define it: the analysis stays reproducible, and adding your own model does not
+mean rewriting the framework around it.
+
+Drux is developed under the OpenSciLab GitHub organisation and distributed as a Python package
+on PyPI.
 
 ## Links
 [GitHub](https://github.com/openscilab/drux) · [PyPI](http://pepy.tech/project/drux)
 
 ## Related
-[[opr|OPR — Optimized Primer Design Tool]] — sibling biomedical tool.
+[[opr|OPR — Optimized Primer Design Tool]] — sibling biomedical tool, and the other half of the biomedical data science group.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — Drux's insistence on reproducible analysis is that philosophy applied to pharmaceutical work.

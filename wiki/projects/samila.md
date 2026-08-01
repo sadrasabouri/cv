@@ -9,15 +9,20 @@ domain: art
 
 **Role:** Creator / co-developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
-
-A Python prototyping tool for artists: creates images by randomly permuting thousands of
-points, each positioned by a formula with random parameters.
-
+**Domain:** Art — generative image making in Python
 **Adoption:** 1,100+ GitHub stars, 36,000+ downloads. Gained significant traction in Web3 and
 NFT communities, with multiple community YouTube tutorials within the first three months.
 
+## Summary
+Samila is a Python prototyping tool for artists: it makes an image by scattering many thousands
+of points, each one placed by a formula with random parameters. No point is drawn by hand — the
+picture is whatever that many placements add up to.
+
+Because the generation process is random, an image cannot be reproduced unless its seed was
+kept.
+
 ## Links
-[GitHub](https://github.com/sepandhaghighi/samila) · [PyPI](http://pepy.tech/project/samila)
+[GitHub](https://github.com/sepandhaghighi/samila) · [PyPI](https://pepy.tech/project/samila)
 
 ## Related
 [[../publications/samila|Samila: A Generative Art Generator]] — the paper.

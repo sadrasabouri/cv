@@ -9,16 +9,25 @@ domain: network
 
 **Role:** Developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
-
-Synthesizes random graphs for network simulation. Supports multiple graph file formats
-including DIMACS-Graph, and generates graphs at various sizes via Erdős–Rényi–Gilbert,
-Erdős–Rényi, and Stochastic Block Model methods.
-
+**Domain:** Network tooling — synthetic graph data for network simulation
 **Adoption:** 209 GitHub stars, 42,000+ downloads. Adopted by **10+ research teams worldwide**
 for generating synthetic data in social network simulations.
 
+## Summary
+PyRGG makes up random graphs for network simulation: it synthesizes graph data for people who
+need a network to run something against and do not have a real one to hand. It generates graphs
+at whatever size is asked for, from small test cases up to whatever a simulation needs, and it
+writes the result in several graph file formats, DIMACS-Graph among them, so the output drops
+straight into existing graph tooling instead of needing a conversion step first.
+
+Three generation models are available: Erdős–Rényi–Gilbert, Erdős–Rényi, and the Stochastic
+Block Model.
+
+PyRGG belongs to the network group of Sadra's open-source work, alongside
+[[ipspot|IPSpot — System IP Address Fetcher]].
+
 ## Links
-[GitHub](https://github.com/sepandhaghighi/pyrgg) · [PyPI](http://pepy.tech/project/pyrgg)
+[GitHub](https://github.com/sepandhaghighi/pyrgg) · [PyPI](https://pepy.tech/project/pyrgg)
 
 ## Related
 [[ipspot|IPSpot — System IP Address Fetcher]] — sibling network-domain tool.

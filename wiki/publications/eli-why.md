@@ -7,14 +7,20 @@ venue: ACL
 tags: [nlp, education, benchmark, explanation]
 ---
 
-**Authors:** B Joshi, K He, S Ramnath, **S Sabouri**, K Zhou, S Chattopadhyay, S Swayamdipta, X Ren
+**Authors:** Brihi Joshi, Keyu He, Sahana Ramnath, **Sadra Sabouri**, Kaitlyn Zhou, Souti Chattopadhyay, Swabha Swayamdipta, Xiang Ren
 **Venue:** Association for Computational Linguistics (ACL), 2025 — accepted
 
 ## Summary
-A benchmark of **13.4K "why" questions** testing whether language models can adapt
-explanations to learners of different educational backgrounds. Across two human studies,
-GPT-4 explanations matched their intended grade level only **50% of the time** and were rated
-**20% less suitable** for learners' needs than layperson-curated responses.
+A good explanation is not one thing. Explaining the same thing to a fifth grader and to a
+graduate student are different tasks, and ELI-Why asks whether a language model can tell them
+apart. The benchmark holds **13.4K "Why" questions** and is built to test
+whether models adapt an explanation to the educational background of the person asking.
+
+Two human studies measured how well GPT-4 does this. It landed on the intended grade level only
+about **half the time**, and its explanations were rated **20% less suitable** for learners'
+needs than explanations curated by laypeople. Generating a fluent answer, in other words, is not
+the same skill as pitching it at the right reader — by this measure current models are not good
+teachers yet.
 
 ## Links
 [Paper](https://arxiv.org/pdf/2506.14200) ·

@@ -181,3 +181,38 @@ industry-experience pages. Followed through on the rest:
   resolve, and no page is orphaned.
 - Contact details and profile links (email, GitHub, LinkedIn, Scholar, Twitter, Stack Overflow,
   IMDB) are now absent from `wiki/` entirely, since that page owned them.
+
+## [2026-07-31] ingest | cv-web.html — rewritten personal site, folded into every page it covers
+
+Sadra re-added his personal site export as `cv-web.html`, a rewritten and much richer version
+of the page the wiki was originally built from. Instruction: expand the pages with its content,
+assume readers cannot follow links or see badges, and add nothing from any other source.
+
+- **39 of 75 pages enriched**, +355 net lines. The other 36 — education, references, skills,
+  services, teaching, the four under-submission papers, Mycoffee, Asr Gooyesh Pardaz — are not
+  in the file at all, so they were left alone rather than padded.
+- New material the wiki did not have: the **two-theses framing** (*AI Integration Challenges* /
+  *Open World Development*); the full Frankenstein-Trojan argument and the case for software as
+  unusually auditable science; and a personal passage on `publications/docalog` — his first
+  paper, the one that pulled him into NLP and publishing, now its own section on that page.
+- `index.md` regenerated with a short bio from the site intro and refreshed summaries.
+- Badges on the site are shields.io images, so they carry no literal figures in the HTML;
+  no adoption numbers could be recovered from them. Existing figures came from the CV document
+  and were kept.
+
+Written by parallel agents, then diff-verified line by line against the HTML. The verification
+caught **26 unsupported additions** — fluent, plausible padding of exactly the kind the
+instruction forbade. All were removed. The worst were outright wrong:
+
+- `projects/samila` claimed "two runs never look alike", contradicting the seed mechanism
+  described in the same paragraph.
+- `publications/docalog` filed an English MultiDoc2Dial shared-task paper under a "Farsi text line".
+- `publications/eli-why` invented "why the sky is blue" as an example, reading as a benchmark item.
+- `industry-experience/open-science-laboratory` attributed projects that live outside the
+  OpenSciLab organization to it.
+- `profile/open-source-philosophy` welded two separate statements together — that Sadra
+  co-leads an open-source team, and that he co-founded OpenSciLab — into a claim the site
+  never makes.
+
+Schema updated with an explicit no-padding rule, and the old ~40-line limit replaced: a page
+must now carry whatever a link or badge would have told the reader.

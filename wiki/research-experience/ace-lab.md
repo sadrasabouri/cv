@@ -11,8 +11,11 @@ tags: [usc, hci, lab]
 **Location:** Los Angeles, California
 **PI:** Souti Chattopadhyay (Viterbi/GCS)
 
-Primary research home for the PhD. Work is organized into three threads, each with its own
-page. Portions of the software-engineering thread were funded by the **Amazon AGI Center**.
+Primary research home for the PhD — the Adaptive Computing Experience (ACE) Lab, Souti
+Chattopadhyay's lab at GCS. Together with CUTE LAB NAME at ISI, it is where the AI integration
+line described in [[../profile/research-agenda|Research Agenda]] is carried out. Work here is
+organized into three threads, each with its own page. Portions of the software-engineering
+thread were funded by the **Amazon AGI Center**.
 
 ## Threads
 [[ace-lab-human-ai-software-engineering|Thread: Human-AI Interaction in Software Engineering]] — how developers trust and work with code agents.

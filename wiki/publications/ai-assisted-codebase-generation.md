@@ -7,14 +7,18 @@ venue: VL/HCC
 tags: [software-engineering, vibe-coding, hci]
 ---
 
-**Authors:** P Eibl, **S Sabouri**, S Chattopadhyay
+**Authors:** Philipp Eibl, **Sadra Sabouri**, Souti Chattopadhyay
 **Venue:** IEEE Visual Languages and Human-Centric Computing (VL/HCC), 2025 — accepted August 2025
 
 ## Summary
-Studies how LLMs reshape development through **"vibe-coding"** — building software by
-iteratively prompting rather than writing code. Based on 16 developers using project-level AI
-tools comparable to Cursor. The shift blurs the boundaries between ideation, coding, and
-debugging, and could make development more collaborative.
+A study of **"vibe-coding"**: building software by prompting an LLM over and over instead of
+writing the code yourself. It draws on 16 developers using project-level AI tools comparable to
+Cursor, and maps the pain points and the opportunities of working that way.
+
+The interesting part is that the borders between having the idea, writing it, and debugging it
+stop existing — ideation, implementation, and debugging collapse into a single activity rather
+than three phases handed off between each other. That collapse is what might make building
+software a more collaborative thing than it has been.
 
 ## Links
 [Paper](https://arxiv.org/pdf/2508.07966)

@@ -13,7 +13,8 @@ tags: [hci, decision-making, rhetoric, advice]
 ## Summary
 A survey of 98 participants verifying factual claims with LLM advice presented in different
 rhetorical styles. Shows how the *styling* of advice — independent of its content — shifts
-user performance, confidence, and engagement.
+user performance, confidence, and engagement. The study is about the effect of rhetorical
+patterns for AI advisors, and was accepted to VL/HCC 2026 in July 2026.
 
 ## Links
 [Paper](https://arxiv.org/pdf/2607.17627)

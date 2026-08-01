@@ -114,7 +114,13 @@ Rules:
   `active`, `completed`, `ongoing`, `awarded`.
 - Numbers (download counts, stars, participant counts, dates) belong in the body with the
   date they were true, not only in frontmatter.
-- Keep pages short. A page that grows past ~40 lines is usually two pages.
+- **A page must stand on its own.** Assume the reader cannot click a link, cannot open a repo,
+  and cannot see a badge. Whatever a link or badge would have told them goes in the prose.
+  Length is not the constraint; a page runs as long as the material it actually has.
+- **Never pad.** Everything on a page traces to a source Sadra supplied. Do not add plausible
+  background, do not explain how a method works because you happen to know, and do not invent
+  a rationale for why a tool exists. If a sentence cannot be traced, delete it. This is the
+  single easiest rule to break while writing fluent prose, and the most damaging when broken.
 
 ## Projects vs. publications
 

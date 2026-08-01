@@ -9,9 +9,10 @@ tags: [open-source, openscilab, co-founder]
 **Dates:** 2019 – 2025
 **Role:** Co-founder
 
-Co-founded and led development of open-source scientific tooling. Across the portfolio,
-projects have collectively gained **5,000+ GitHub stars and 20M+ downloads**, with several
-adopted into larger ecosystems (Keras, TensorBoard, conda-forge).
+Co-founded with a group of friends, and led development of open-source scientific tooling. The
+motive was plain rather than strategic: the team wanted these tools to exist and nobody was
+making them. Across the portfolio, projects have collectively gained **5,000+ GitHub stars and
+20M+ downloads**, with several adopted into larger ecosystems (Keras, TensorBoard, conda-forge).
 
 ## What the role covers
 
@@ -28,10 +29,16 @@ Being a co-founder here means wearing every hat the work requires:
   inspectable, e.g. [[../publications/rater-agreement-metrics|A Literature Review on Rater Agreement Metrics]]
 
 ## Portfolio
-See [[../projects/art|Art — ASCII Art Library for Python]], [[../projects/pycm|PyCM — Multi-Class Confusion Matrix Library]],
-[[../projects/samila|Samila — Generative Art Generator]], [[../projects/nava|Nava — OS-Native Sound Engine in Python]], [[../projects/memor|Memor — Conversational Memory Across LLMs]], [[../projects/pymilo|PyMilo — Python Library for ML I/O]],
-[[../projects/pyrgg|PyRGG — Python Random Graph Generator]], [[../projects/opr|OPR — Optimized Primer Design Tool]], [[../projects/nafas|Nafas — Breathing Gymnastics Application]], [[../projects/mycoffee|Mycoffee — Coffee Brewing Recipes for Terminal Users]],
-and others.
+Carried in the OpenSciLab organization itself: [[../projects/tocount|ToCount — Lightweight Token Estimator]], [[../projects/xnum|XNum — Universal Numeral System Converter]],
+[[../projects/memor|Memor — Conversational Memory Across LLMs]], [[../projects/nava|Nava — OS-Native Sound Engine in Python]], [[../projects/pymilo|PyMilo — Python Library for ML I/O]],
+[[../projects/ipspot|IPSpot — System IP Address Fetcher]], [[../projects/drux|Drux — Drug Release Analysis Framework]], and [[../projects/opr|OPR — Optimized Primer Design Tool]].
+
+Sadra also works on [[../projects/art|Art — ASCII Art Library for Python]], [[../projects/pycm|PyCM — Multi-Class Confusion Matrix Library]], [[../projects/samila|Samila — Generative Art Generator]],
+[[../projects/pyrgg|PyRGG — Python Random Graph Generator]], [[../projects/nafas|Nafas — Breathing Gymnastics Application]], [[../projects/mytimer|MyTimer — A Timer for Command Line Enthusiasts]],
+and [[../projects/mycoffee|Mycoffee — Coffee Brewing Recipes for Terminal Users]], which live outside the OpenSciLab organization.
+
+## Links
+[OpenSciLab on GitHub](https://github.com/openscilab/)
 
 ## Related
 [[../profile/open-source-philosophy|Open Source Philosophy]] — why this exists.

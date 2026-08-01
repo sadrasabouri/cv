@@ -8,10 +8,11 @@ tags: [usc, isi, nlp, lab]
 
 **Role:** Affiliated researcher
 **PI:** Jonathan May
-**Location:** USC Information Sciences Institute
+**Location:** USC Information Sciences Institute (ISI)
 
-Secondary lab affiliation alongside the ACE Lab, bringing the NLP side of the work. May is a
-co-author on the AI-advice line and on the therapeutic AI study.
+Secondary lab affiliation alongside the ACE Lab, bringing the NLP side of the work: the two
+labs together host the AI integration line the PhD is organized around, this one being Jonathan
+May's lab at ISI. May is a co-author on the AI-advice line and on the therapeutic AI study.
 
 ## Related
 [[ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — primary affiliation.

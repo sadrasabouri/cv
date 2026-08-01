@@ -9,13 +9,24 @@ domain: nlp
 
 **Role:** Developer
 **Org:** [[../industry-experience/open-science-laboratory|Open Science Laboratory (OpenSciLab)]]
+**Distribution:** Python package, on GitHub and PyPI
 
+## Summary
 Converts digits across numeral systems — English, Persian, Hindi, Arabic-Indic, Bengali, and
 others. Auto-detects mixed formats and converts only the numbers, leaving surrounding text
 untouched, which makes multilingual and localized data handling straightforward.
 
+The useful part is that second behaviour: XNum finds the numbers inside mixed text and
+rewrites only those, so a sentence that mixes scripts comes back with its numerals normalized
+and everything else exactly as it was. Anyone who has cleaned a Persian text by hand knows why
+the library exists.
+
+It belongs to the natural-language and LLM group of OpenSciLab tools.
+
 ## Links
-[GitHub](https://github.com/openscilab/xnum/) · [PyPI](http://pepy.tech/project/xnum)
+[GitHub](https://github.com/openscilab/xnum/) · [PyPI](https://pepy.tech/project/xnum)
 
 ## Related
 [[naab|naab — Farsi Text Corpus]] — the other Persian-language data effort.
+[[tocount|ToCount — Lightweight Token Estimator]] — sibling text utility in the same OpenSciLab NLP group.
+[[../profile/open-source-philosophy|Open Source Philosophy]] — why these tools get written and released at all.
