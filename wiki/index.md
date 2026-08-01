@@ -105,8 +105,9 @@ This page catalogs every page in Sadra's wiki version of his CV. Browse the sect
 
 ## Skills
 
-- [[skills/research-methods|Research Methods]] — Study design: User interviews, surveys and questionnaire design, A/B testing, heuristic evaluation,…
-- [[skills/technical|Technical Skills]] — Programming languages: Python, C/C++, Java, JavaScript, TypeScript, HTML, CSS
+- [[skills/professional|Professional Skills]] — Collaboration and leadership: Teamwork, leadership, project management
+- [[skills/research-methods|Research Methods]] — Study design: Research design, user interviews, surveys and questionnaire design, A/B testing,…
+- [[skills/technical|Technical Skills]] — Programming languages: Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, MATLAB, Assembly,…
 
 ## References
 

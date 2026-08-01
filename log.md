@@ -262,3 +262,32 @@ since the site is public and a paper's current review venue is not.
 
 The 21 accepted and published papers keep their venues. Schema updated so a future ingest does
 not reintroduce one, including in link annotations.
+
+## [2026-08-01] ingest | LinkedIn skills list
+
+Sadra supplied his LinkedIn skills (~70 entries). Filed into `skills/`, which grew from two
+pages to three.
+
+- `skills/technical` — rebuilt as ten grouped inventories: programming languages, machine
+  learning and AI, ML frameworks, speech and signal, immersive and visual computing, web and
+  backend, data, software and infrastructure, hardware and embedded, and research/design tools.
+  Adds C, MATLAB, Assembly, Verilog, VHDL, LaTeX, PostgreSQL, Git, CI/CD, DevOps, GNU/Linux,
+  FPGA, Arduino, Raspberry Pi, AR/VR, holography, CNNs, agentic AI, agent-based modeling, and
+  more. Records the five passed LinkedIn skill assessments.
+- `skills/research-methods` — gains research design, UX research, UX testing, user behavior,
+  human-centered AI design, and psychology.
+- `skills/professional` — new page for teamwork, leadership, project management, public
+  speaking, presentation, and teaching.
+
+Endorsement counts were not carried over: they are LinkedIn social proof that drifts, and the
+schema already forbids hardcoding numbers that a live source owns. The skill-to-role
+attributions were kept, since those say where a skill was actually exercised, and link to the
+experience pages.
+
+Deduplicated along the way: "C" / "C (Programming Language)", "Speech Recognition" / "ASR", and
+"Open-Source Software" / "Open Source Development" each appear once.
+
+**Three experiences surfaced that the wiki has no record of** — a Research Assistant Internship
+at the University of Sydney, a Teaching Assistant role at USC, and an apparent second Microsoft
+experience. All three are recorded in `todo.md`; none got a page, since a skills list is too
+thin to write an experience from.
