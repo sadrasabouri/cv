@@ -3,12 +3,11 @@ title: "Prompting Reflection: Encouraging Users to Critically Evaluate AI Sugges
 type: publication
 status: under-submission
 year: 2026
-venue: ToCHI
 tags: [hci, decision-making, reflection, diplomacy]
 ---
 
 **Authors:** **S Sabouri**, Y Wang, F Gu, R Huang, AK Zhao, D Peskov, JB Graber, J May, JK Kummerfeld, S Chattopadhyay
-**Venue:** Transactions on Computer-Human Interaction (ToCHI), 2026 — under submission
+**Status:** Under submission, 2026
 
 ## Summary
 Designs reflection-prompting strategies that push users toward more deliberate decisions

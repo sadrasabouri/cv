@@ -3,12 +3,11 @@ title: "Synthesizing Program Analyzers to Help Programmers Answer Questions Abou
 type: publication
 status: under-submission
 year: 2026
-venue: ICSE
 tags: [software-engineering, codeql, rag, education]
 ---
 
 **Authors:** A Nazari, **S Sabouri**, W B Zhu, R Jia, M Raghothaman, S Chattopadhyay
-**Venue:** IEEE/ACM International Conference on Software Engineering (ICSE), 2026 — under submission
+**Status:** Under submission, 2026
 
 ## Summary
 A system bridging LLMs with **CodeQL** so novice programmers can interrogate large codebases.

@@ -113,6 +113,11 @@ Rules:
 - Always annotate a link with a clause saying why the connection exists.
 - `status` vocabulary: `accepted`, `published`, `under-submission`, `in-preparation`,
   `active`, `completed`, `ongoing`, `awarded`.
+- **A paper under submission never names its venue.** Omit the `venue:` frontmatter key and
+  write `**Status:** Under submission, <year>` instead of a `**Venue:**` line. The site is
+  public, and where a paper is currently under review is not. Add the venue only once it is
+  accepted, at which point `status` changes too. This applies to inbound links as well — do not
+  annotate a link with a venue the paper has not earned yet.
 - **Never write star, fork, or download counts as prose.** Every project page carries live
   shields.io and pepy.tech badges instead, so GitHub and PyPI stay the source of truth and the
   numbers cannot go stale. A hardcoded count next to a live badge will eventually contradict it.

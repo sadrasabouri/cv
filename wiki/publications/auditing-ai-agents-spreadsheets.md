@@ -3,12 +3,11 @@ title: "Auditing and Controlling AI Agent Actions in Spreadsheets"
 type: publication
 status: under-submission
 year: 2026
-venue: UIST
 tags: [hci, ai-agents, spreadsheets, auditing]
 ---
 
 **Authors:** **S Sabouri**, Z Saghi, R Huang, S Maladi, E Eufracio, S Gulwani, S Chattopadhyay
-**Venue:** ACM Symposium on User Interface Software and Technology (UIST), 2026 — under submission
+**Status:** Under submission, 2026
 
 ## Summary
 How users audit and retain control over AI agents acting inside spreadsheets. First-author

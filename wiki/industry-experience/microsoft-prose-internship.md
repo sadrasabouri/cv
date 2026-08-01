@@ -18,4 +18,4 @@ Synthesis using Examples) team, working with Sumit Gulwani.
 [Microsoft PROSE](https://www.microsoft.com/en-us/research/group/prose/)
 
 ## Related
-[[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — UIST 2026 submission co-authored with Gulwani, from this line of work.
+[[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — submission co-authored with Gulwani, from this line of work.

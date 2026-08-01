@@ -246,3 +246,19 @@ Not badged: `projects/mycoffee` (no repository named in either source), and `pro
 no counts, so they would not auto-update.
 
 This closes both open conflicts in `todo.md`; that section is now empty.
+
+## [2026-08-01] change | Under-submission papers no longer name their venue
+
+Four papers carry `status: under-submission`, and each stated where it was submitted. Removed,
+since the site is public and a paper's current review venue is not.
+
+- `publications/auditing-ai-agents-spreadsheets`, `publications/prompting-reflection`,
+  `publications/synthesizing-program-analyzers`,
+  `publications/anthropomorphism-sycophancy-therapeutic-ai` — dropped the `venue:` frontmatter
+  key and replaced the `**Venue:**` line with `**Status:** Under submission, 2026`.
+- `industry-experience/microsoft-prose-internship` — a `## Related` annotation named the venue
+  of the spreadsheet-agents submission; now reads "submission co-authored with Gulwani".
+- `index.md` — the four entries now read *(2026 · under submission)* with no venue.
+
+The 21 accepted and published papers keep their venues. Schema updated so a future ingest does
+not reintroduce one, including in link annotations.
