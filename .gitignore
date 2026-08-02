@@ -1,2 +1,10 @@
 .DS_Store
 public/
+
+# cv.pdf is built in CI and published to /cv/cv.pdf — never committed.
+latex/*.pdf
+latex/*.aux
+latex/*.log
+latex/*.out
+latex/*.fls
+latex/*.fdb_latexmk
