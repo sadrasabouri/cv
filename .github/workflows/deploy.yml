@@ -42,8 +42,15 @@ jobs:
 
       # After the Quartz build, which owns the contents of public/.
       # Served at https://sadrasabouri.github.io/cv/cv.pdf
+      #
+      # Both steps above are Docker actions, so they run as root and leave public/
+      # and latex/cv.pdf root-owned, while `run:` steps execute as the runner user.
+      # Take ownership first or the copy fails with EACCES.
       - name: Add CV PDF to the site
-        run: cp latex/cv.pdf public/cv.pdf
+        run: |
+          sudo chown -R "$(id -u):$(id -g)" public latex
+          cp latex/cv.pdf public/cv.pdf
+          ls -l public/cv.pdf
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
