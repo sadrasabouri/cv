@@ -324,3 +324,64 @@ broadened thread, not a contradiction of it.
 Affiliation is given as "Microsoft PROSE team", which is what the wiki actually records. No
 title was assigned, since none of the sources state one. No contact details, per the standing
 rule that recommenders get a name, role, and affiliation only.
+
+## [2026-08-01] ingest | Synthesizing Program Analyzers accepted at VL/HCC
+
+- `publications/synthesizing-program-analyzers` moved from `under-submission` to `accepted`:
+  added `venue: VL/HCC`, and replaced the `**Status:** Under submission, 2026` line with
+  `**Venue:** IEEE Visual Languages and Human-Centric Computing (VL/HCC), 2026`.
+- Updated its entry in `index.md` from *(2026 · under submission)* to *(VL/HCC · 2026)*.
+- The two inbound links, from `research-experience/ace-lab-ai-for-education` and
+  `research-experience/ace-lab-human-ai-knowledge-work`, needed no change: neither annotated the
+  link with a submission status.
+
+Sadra gave the acceptance but not the acceptance month, so the venue line carries the year only,
+unlike the VL/HCC 2026 advice-styles page which records "accepted July 2026". No paper link yet.
+
+## [2026-08-01] ingest | University of Sydney role, and the Microsoft internship's second line of work
+
+- Created `research-experience/university-of-sydney` for the Research Assistant Intern role:
+  immersive and visual computing (augmented reality, virtual reality, holography) alongside
+  convolutional neural networks and research design. Filed under `research-experience/` rather
+  than `industry-experience/` because the role is a university research post.
+- `industry-experience/microsoft-prose-internship` now records both halves of the internship
+  rather than one: **UX research with Katie Garms** and **agentic AI development with Sumit
+  Gulwani**. This resolves the open question about LinkedIn reporting "2 experiences at
+  Microsoft": it was one internship covering two lines of work, not two roles.
+- Cross-linked from `skills/technical` (augmented reality, virtual reality, holography now trace
+  to the Sydney role) and `skills/research-methods` (research design likewise, and UX research is
+  now identified as one of the internship's two lines).
+- Added the Sydney page to `index.md` under Research Experience.
+
+The Sydney page carries no dates, no PI, no location, and no description of the project, because
+none were supplied. Per the schema those are omitted from the page rather than guessed, and the
+gap is recorded in `todo.md`. Its title omits the em dash its five siblings use, following
+Sadra's standing instruction against em dashes.
+
+Katie Garms is named on the Microsoft page but has no `references/` page, since it is not known
+whether she is a recommender. Recorded in `todo.md`.
+
+## [2026-08-01] ingest | CUTE LAB NAME affiliation restated as 2025 to present
+
+- `research-experience/cute-lab-name` moved from `year: 2023` to `year: 2025` and gained a
+  `**Dates:** 2025 – Present` line, which it previously lacked entirely.
+- Updated its `index.md` entry from *(2023)* to *(2025)*.
+- The four other inbound links, from `ace-lab`, `references/jonathan-may`,
+  `education/usc-phd-computer-science`, and `profile/research-agenda`, needed no change: none
+  of them stated a date.
+
+The CV's Research Experience section is reverse chronological, so the ISI affiliation now sorts
+above the ACE Lab (2025 start vs. August 2023). That places the secondary affiliation first.
+
+## [2026-08-01] ingest | OpenSciLab dated by founding year rather than a period
+
+- `industry-experience/open-science-laboratory` now records `**Dates:** 2019` instead of
+  `2019 – 2025`. The 2025 end date is gone on Sadra's instruction; the role is dated by when it
+  started, not by a closed period.
+- `index.md` already showed *(2019)* and needed no change.
+- The CV's Industry Experience section sorts by start date, so OpenSciLab (2019) now falls below
+  Asr Gooyesh Pardaz (2020) rather than sitting between it and Microsoft.
+
+The page still carries `status: completed`, which sat naturally with a closed 2019–2025 period
+and sits less naturally with an open one. Left as-is rather than changed silently; recorded in
+`todo.md`.

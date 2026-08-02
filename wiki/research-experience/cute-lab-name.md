@@ -2,11 +2,12 @@
 title: "USC ISI — [CUTE LAB NAME]"
 type: research-experience
 status: active
-year: 2023
+year: 2025
 tags: [usc, isi, nlp, lab]
 ---
 
 **Role:** Affiliated researcher
+**Dates:** 2025 – Present
 **PI:** Jonathan May
 **Location:** USC Information Sciences Institute (ISI)
 

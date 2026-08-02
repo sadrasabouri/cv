@@ -6,7 +6,7 @@ year: 2019
 tags: [open-source, openscilab, co-founder]
 ---
 
-**Dates:** 2019 – 2025
+**Dates:** 2019
 **Role:** Co-founder
 
 Co-founded with a group of friends, and led development of open-source scientific tooling. The

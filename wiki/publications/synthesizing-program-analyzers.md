@@ -1,13 +1,14 @@
 ---
 title: "Synthesizing Program Analyzers to Help Programmers Answer Questions About Code"
 type: publication
-status: under-submission
+status: accepted
 year: 2026
+venue: VL/HCC
 tags: [software-engineering, codeql, rag, education]
 ---
 
 **Authors:** A Nazari, **S Sabouri**, W B Zhu, R Jia, M Raghothaman, S Chattopadhyay
-**Status:** Under submission, 2026
+**Venue:** IEEE Visual Languages and Human-Centric Computing (VL/HCC), 2026
 
 ## Summary
 A system bridging LLMs with **CodeQL** so novice programmers can interrogate large codebases.

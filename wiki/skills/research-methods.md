@@ -18,6 +18,8 @@ human-centered AI design
 
 ## Where these were used
 UX research at [[../industry-experience/microsoft-prose-internship|Microsoft PROSE — Applied Scientist Intern]],
+where it was one of the internship's two lines of work;
+research design at [[../research-experience/university-of-sydney|University of Sydney, Research Assistant Intern]];
 and psychology alongside the human-subjects work at
 [[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]].
 

@@ -36,6 +36,7 @@ infrastructure, Docker, Git, CI/CD, DevOps, GNU/Linux, open-source development
 Python, C++, and deep learning at [[../industry-experience/asr-gooyesh-pardaz|Asr Gooyesh Pardaz]];
 speech processing and chatbot development at [[../research-experience/sharif-slp-lab|Sharif University of Technology — Speech and Language Processing Lab]];
 software development at [[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]];
+augmented reality, virtual reality, and holography at [[../research-experience/university-of-sydney|University of Sydney, Research Assistant Intern]];
 agentic AI development at [[../industry-experience/microsoft-prose-internship|Microsoft PROSE — Applied Scientist Intern]].
 Natural language processing spans three roles at USC and two other companies.
 

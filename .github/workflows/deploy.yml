@@ -25,12 +25,25 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Compiled here rather than committed, so the repo never carries a binary
+      # that can disagree with the wiki it was rendered from.
+      - name: Compile CV PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: latex
+          root_file: cv.tex
+
       - name: Build Quartz site from wiki folder
         uses: konstfish/quartz-build-action@v7
         with:
           source: wiki
           destination: public
           page_title: Sadra Sabouri
+
+      # After the Quartz build, which owns the contents of public/.
+      # Served at https://sadrasabouri.github.io/cv/cv.pdf
+      - name: Add CV PDF to the site
+        run: cp latex/cv.pdf public/cv.pdf
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
