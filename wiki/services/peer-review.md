@@ -7,6 +7,7 @@ tags: [peer-review, hci, software-engineering]
 
 | Venue | Load |
 |---|---|
+| ACM Conference on Intelligent User Interfaces (IUI) 2027 | Four research papers |
 | ACM Conference on Human Factors in Computing Systems (CHI) 2026 | Two research papers |
 | ACM Conference on Intelligent User Interfaces (IUI) 2026 | Two research papers |
 | ACM Symposium on User Interface Software and Technology (UIST) 2026 | Two research papers |

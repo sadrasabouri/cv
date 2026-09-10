@@ -46,12 +46,12 @@ make a column line up. Missing facts are tracked in `todo.md`.
 ## Header
 
 Exactly the block Sadra specified, rendered by `\cvheader` in `preamble.tex` from the values in
-`contact.tex`: name, then one line of phone, email, LinkedIn, and GitHub with FontAwesome icons
-and underlined link text separated by `\quad`, then the location on its own line. No tagline, no
-website link, no Google Scholar link.
+`contact.tex`: name, then one line of email, LinkedIn, and GitHub with FontAwesome icons and
+underlined link text separated by `\quad`, then the location on its own line. No phone number,
+tagline, website link, or Google Scholar link.
 
-Note that `cv.pdf` is served publicly and is therefore indexable, phone number included. That is
-a deliberate choice, not an oversight.
+Note that `cv.pdf` is served publicly and is therefore indexable; the header deliberately omits
+Sadra's phone number.
 
 ## Section order
 
