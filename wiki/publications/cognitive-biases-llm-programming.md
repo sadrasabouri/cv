@@ -7,7 +7,7 @@ venue: ICSE
 tags: [software-engineering, cognitive-bias, taxonomy, hci]
 ---
 
-**Authors:** Xinyi Zhou, Zeinabsadat Saghi, **Sadra Sabouri**, Rahul Pandita, Mollie McGuire, Souti Chattopadhyay
+**Authors:** X Zhou, Z Saghi, **S Sabouri**, R Pandita, M McGuire, S Chattopadhyay
 **Venue:** IEEE/ACM International Conference on Software Engineering (ICSE), 2026 — accepted
 
 ## Summary

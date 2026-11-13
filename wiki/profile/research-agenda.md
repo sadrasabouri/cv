@@ -10,7 +10,7 @@ around; the second is [[../profile/open-source-philosophy|Open Source Philosophy
 site as *Open World Development*.
 **Core question:** what is the part of a task that AI cannot do, and how can AI help the human do
 that part better?
-**Stage:** third year of the CS PhD, as of July 2026.
+**Stage:** fourth year of the CS PhD, as of November 2026.
 **Labs:** the Adaptive Computing Experience (ACE) Lab, Souti Chattopadhyay's lab at GCS, and
 CUTE LAB NAME, Jonathan May's lab at ISI.
 

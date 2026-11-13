@@ -7,7 +7,14 @@ Resolve during an ingest by asking Sadra, then update the owning page and delete
 
 ## Conflicts: a claim is on the page but the sources disagreed
 
-None open. The star/fork/download disagreements on `wiki/projects/art` and `wiki/projects/pycm`
+- **`wiki/publications/synthesizing-program-analyzers` participant count.** The page used to say
+  the user study had 20 software engineers, with a 3.7x accuracy gain and a 32% time cut. The
+  arXiv abstract (2605.09304) gives 3.8x and 31% but no participant count; a third-party summary
+  of the paper says 18 participants. The page now carries the arXiv numbers and omits the count
+  (so does `research-experience/ace-lab-human-ai-knowledge-work`). Confirm the count from the
+  camera-ready.
+
+Earlier conflicts are resolved. The star/fork/download disagreements on `wiki/projects/art` and `wiki/projects/pycm`
 are resolved: those counts are no longer written into the pages at all. Every project page now
 carries live shields.io and pepy.tech badges, so GitHub and PyPI are the source of truth and the
 figures cannot go stale again.
@@ -20,29 +27,15 @@ figures cannot go stale again.
   sorts last in Research Experience. Also worth confirming: does this role connect to
   [[wiki/references/jonathan-kummerfeld]], who is at the University of Sydney? The wiki does not
   claim a connection, because none is recorded.
-- **`wiki/industry-experience/open-science-laboratory` status vs. dates.** The page now records
-  `**Dates:** 2019` with no end date, but keeps `status: completed`, which fitted the closed
-  2019–2025 period it replaced. `profile/open-source-philosophy` says Sadra "co-leads an
-  open-source team that builds scientific tools" in the present tense, and most of the projects
-  under the org are `status: active`. Confirm whether the role should be `active`.
 - **Missing role: Teaching Assistant at USC.** LinkedIn attributes Teaching to a "Teaching
   Assistant at University of Southern California". `teaching-and-outreach/` has only the Sharif
   workshop and the Stanford program. Needs the courses and terms.
-- **Katie Garms has no `references/` page.** She is named on
-  `industry-experience/microsoft-prose-internship` as the person Sadra did the UX research half
-  of the internship with. Sumit Gulwani got a page when Sadra asked for one; decide whether she
-  should too. If so, her affiliation and title are needed.
-
 - **No identity page under `profile/`.** `profile/` owns identity, contact, and links per
   CLAUDE.md, but no page carries them. The CV PDF header now hardcodes them in
   `latex/contact.tex` instead: phone, `sabourih@usc.edu`, LinkedIn and GitHub slugs, and
   Los Angeles, California. The email and the two slugs would sit fine on a wiki page; the phone
   number cannot, since `wiki/` is published. Decide whether a `profile/identity` page owns the
   publishable subset.
-- **Publication pages mix two author-name styles.** Some write `S Sabouri, JB Graber, J May`,
-  others `Sadra Sabouri, Philipp Eibl, Xinyi Zhou`. The CV copies each page verbatim rather than
-  guessing at initials it cannot expand, so both styles appear in one publication list. Needs a
-  decision on which style the wiki uses, then a pass over `publications/`.
 
 - **`wiki/projects/mycoffee`**: no GitHub/PyPI link. It is the only project without live
   badges, because neither source names its repository. Present in the CV document only, not on

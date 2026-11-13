@@ -7,7 +7,7 @@ venue: UIST
 tags: [hci, academic-reading, social-media, llm]
 ---
 
-**Authors:** Run Huang, Anna Katherine Zhao, Zeinabsadat Saghi, **Sadra Sabouri**, Souti Chattopadhyay
+**Authors:** R Huang, AK Zhao, Z Saghi, **S Sabouri**, S Chattopadhyay
 **Venue:** ACM Symposium on User Interface Software and Technology (UIST), 2025 — accepted
 
 ## Summary

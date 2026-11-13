@@ -34,3 +34,4 @@ evaluate a wide variety of classifiers, rather than a single headline number.
 ## Related
 [[../publications/rater-agreement-metrics|A Literature Review on Rater Agreement Metrics]] — technical report supporting the library.
 [[pymilo|PyMilo — Python Library for ML I/O]] — sibling ML tooling.
+[[../publications/comparing-classifiers-pycm|Comparing Classifiers: A Case Study Using PyCM]]: tutorial paper built on the library.

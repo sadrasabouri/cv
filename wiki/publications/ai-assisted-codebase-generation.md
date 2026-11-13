@@ -7,7 +7,7 @@ venue: VL/HCC
 tags: [software-engineering, vibe-coding, hci]
 ---
 
-**Authors:** Philipp Eibl, **Sadra Sabouri**, Souti Chattopadhyay
+**Authors:** P Eibl, **S Sabouri**, S Chattopadhyay
 **Venue:** IEEE Visual Languages and Human-Centric Computing (VL/HCC), 2025 — accepted August 2025
 
 ## Summary

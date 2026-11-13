@@ -1,5 +1,5 @@
 ---
-title: "Did You Think This Through?: Effect of Varying Advice Styles on Users' Performance and Contemplation"
+title: "It Matters How You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation"
 type: publication
 status: accepted
 year: 2026
@@ -7,7 +7,7 @@ venue: VL/HCC
 tags: [hci, decision-making, rhetoric, advice]
 ---
 
-**Authors:** **S Sabouri**, JB Graber, J May, JK Kummerfeld, S Chattopadhyay
+**Authors:** **S Sabouri**, Z Saghi, JL Boyd-Graber, J May, JK Kummerfeld, S Chattopadhyay
 **Venue:** VL/HCC 2026 (accepted July 2026)
 
 ## Summary

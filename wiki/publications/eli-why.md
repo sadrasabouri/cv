@@ -7,7 +7,7 @@ venue: ACL
 tags: [nlp, education, benchmark, explanation]
 ---
 
-**Authors:** Brihi Joshi, Keyu He, Sahana Ramnath, **Sadra Sabouri**, Kaitlyn Zhou, Souti Chattopadhyay, Swabha Swayamdipta, Xiang Ren
+**Authors:** B Joshi, K He, S Ramnath, **S Sabouri**, K Zhou, S Chattopadhyay, S Swayamdipta, X Ren
 **Venue:** Association for Computational Linguistics (ACL), 2025 — accepted
 
 ## Summary

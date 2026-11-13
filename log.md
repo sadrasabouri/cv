@@ -385,3 +385,32 @@ above the ACE Lab (2025 start vs. August 2023). That places the secondary affili
 The page still carries `status: completed`, which sat naturally with a closed 2019–2025 period
 and sits less naturally with an open one. Left as-is rather than changed silently; recorded in
 `todo.md`.
+
+## [2026-11-10] ingest | November 2026 update: IUI 2027 acceptance, retitles, new papers, initials
+
+- `publications/auditing-ai-agents-spreadsheets`: under submission → accepted, IUI 2027
+  (accepted October 2026). Summary now names Pista and the two studies (N = 8, N = 16) from the
+  arXiv abstract; added arXiv and USC Viterbi News (October 2026) links.
+- `publications/advice-styles-contemplation`: retitled to the camera-ready title "It Matters How
+  You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation"; Z Saghi added
+  as second author and JB Graber written as JL Boyd-Graber, per Sadra and Google Scholar. Slug kept
+  so links stay stable.
+- `publications/synthesizing-program-analyzers`: retitled to "Generating Complex Code Analyzers
+  from Natural Language Questions"; author order corrected (S Chattopadhyay before M Raghothaman);
+  numbers moved from 3.7x / 32% to the arXiv abstract's 3.8x / 31%, participant count dropped (see
+  `todo.md`); added arXiv link. Slug kept.
+- New pages: `publications/flashscript`, `publications/over-compliant-refactoring`,
+  `publications/se-research-llm-era` (all under submission, no venue), and
+  `publications/comparing-classifiers-pycm` (arXiv 2026, found on Google Scholar).
+- New page: `references/katie-garms` (affiliation Microsoft, per Sadra).
+- Linked from: `industry-experience/microsoft-prose-internship`, `references/sumit-gulwani`,
+  `references/sepand-haghighi`, `references/souti-chattopadhyay`,
+  `research-experience/ace-lab-human-ai-knowledge-work`, `projects/pycm`.
+- Retitled aliases updated on every inbound link and in `index.md`.
+- `services/peer-review`: TOSEM now two research papers. IUI 2027 count unchanged (the four
+  reviews Sadra mentioned are the four already listed).
+- `education/usc-phd-computer-science`, `profile/research-agenda`: third → fourth year.
+- Author-name style: Sadra chose initials. Converted the 14 publication pages that used full
+  names.
+- OpenSciLab status confirmed `completed` by Sadra; gap closed.
+- `index.md`: new entries added, IUI paper moved to the top, 2026 block re-sorted.

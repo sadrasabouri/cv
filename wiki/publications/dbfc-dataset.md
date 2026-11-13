@@ -10,7 +10,7 @@ tags: [chemistry, dataset, fuel-cell, electrochemistry]
 **Full title:** Experimental dataset of electrochemical efficiency of a Direct Borohydride Fuel
 Cell (DBFC) with Pd/C, Pt/C and Pd decorated Ni–Co/rGO anode catalysts
 
-**Authors:** Sarmin Hamidi, **Sadra Sabouri**, Sepand Haghighi, Kasra Askari
+**Authors:** S Hamidi, **S Sabouri**, S Haghighi, K Askari
 **Venue:** ChemRxiv, 2022
 
 ## Summary

@@ -19,5 +19,7 @@ Garms, and **agentic AI development**, with Sumit Gulwani.
 [Microsoft PROSE](https://www.microsoft.com/en-us/research/group/prose/)
 
 ## Related
-[[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — submission co-authored with Gulwani, from this line of work.
+[[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]] — paper co-authored with Gulwani, from this line of work, accepted to IUI 2027.
+[[../publications/flashscript|FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs]]: submission co-authored with Gulwani and Katie Garms.
 [[../references/sumit-gulwani|Sumit Gulwani]] — who Sadra worked with on the team.
+[[../references/katie-garms|Katie Garms]]: who Sadra did the UX research with.

@@ -7,7 +7,7 @@ venue: DialDoc@ACL
 tags: [nlp, dialogue, retrieval, bsc-thesis]
 ---
 
-**Authors:** Sayed Hesam Alavian, Ali Satvaty, **Sadra Sabouri**, Ehsaneddin Asgari, Hossein Sameti
+**Authors:** SH Alavian, A Satvaty, **S Sabouri**, E Asgari, H Sameti
 **Venue:** Document-grounded Dialogue and Conversational Question Answering Workshop (DialDoc) at ACL, 2022
 
 ## Summary
