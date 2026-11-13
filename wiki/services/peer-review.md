@@ -14,10 +14,11 @@ tags: [peer-review, hci, software-engineering]
 | Creativity & Cognition Conference (C&C) 2026 | Two poster papers |
 | International Conference on Human-Agent Interaction (HAI) 2026 | One research paper |
 | International Journal of Human-Computer Interaction (IJHCI) | One research paper |
-| Transactions on Software Engineering and Methodology (TOSEM) | One research paper |
+| Transactions on Software Engineering and Methodology (TOSEM) | Two research papers |
 | The Journal of Systems & Software | One research paper |
 | Journal of Open Research Software (JORS) | One research paper |
 | Nature Scientific Data | One dataset paper |
+| SoCalNLP Symposium 2026 | 10 research abstract | 
 
 ## Related
 [[../profile/research-agenda|Research Agenda]] — the areas these venues overlap with.

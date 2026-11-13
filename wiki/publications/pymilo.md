@@ -7,7 +7,7 @@ venue: JOSS
 tags: [machine-learning, serialization, open-source, tooling]
 ---
 
-**Authors:** AmirHosein Rostami, Sepand Haghighi, **Sadra Sabouri**, Alireza Zolanvari
+**Authors:** A Rostami, S Haghighi, **S Sabouri**, A Zolanvari
 **Venue:** Journal of Open Source Software (JOSS), 2026
 
 ## Summary

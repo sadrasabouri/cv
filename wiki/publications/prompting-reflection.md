@@ -17,4 +17,4 @@ interventions.
 
 ## Related
 [[../research-experience/ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — the research thread.
-[[advice-styles-contemplation|Did You Think This Through?: Effect of Varying Advice Styles on Users' Performance and Contemplation]] — companion study on how advice is styled rather than interrupted.
+[[advice-styles-contemplation|It Matters How You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation]] — companion study on how advice is styled rather than interrupted.

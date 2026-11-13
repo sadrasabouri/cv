@@ -7,7 +7,7 @@ venue: JAIAI
 tags: [nlp, farsi, corpus, low-resource]
 ---
 
-**Authors:** **Sadra Sabouri**, Elnaz Rahmati, Soroush Gooran, Hossein Sameti
+**Authors:** **S Sabouri**, E Rahmati, S Gooran, H Sameti
 **Venue:** Journal of Artificial Intelligence, Applications and Innovations (JAIAI), 2024
 
 ## Summary

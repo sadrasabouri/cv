@@ -7,7 +7,7 @@ venue: arXiv
 tags: [generative-art, open-source, creative-coding]
 ---
 
-**Authors:** **Sadra Sabouri**, Sepand Haghighi, Elena Masrour
+**Authors:** **S Sabouri**, S Haghighi, E Masrour
 **Venue:** arXiv, 2025
 
 ## Summary

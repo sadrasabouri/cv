@@ -7,7 +7,7 @@ venue: ALP@NAACL
 tags: [nlp, persian, historical-languages, toolkit]
 ---
 
-**Authors:** Farhan Farsi, Parnian Fazel, Sepand Haghighi, **Sadra Sabouri**, Farzaneh Goshtasb, Nadia Hajipour, Ehsaneddin Asgari, Hossein Sameti
+**Authors:** F Farsi, P Fazel, S Haghighi, **S Sabouri**, F Goshtasb, N Hajipour, E Asgari, H Sameti
 **Venue:** Ancient Language Processing Workshop (ALP) at NAACL, 2025
 
 ## Summary

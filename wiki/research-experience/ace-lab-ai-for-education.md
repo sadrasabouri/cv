@@ -14,7 +14,7 @@ efforts:
    [[../publications/eli-why|ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations]]
 2. **CodeQL for novices** — a system bridging LLMs with CodeQL so novice programmers can
    analyze large codebases; 3.7× accuracy gain, 32% time reduction →
-   [[../publications/synthesizing-program-analyzers|Synthesizing Program Analyzers to Help Programmers Answer Questions About Code]]
+   [[../publications/synthesizing-program-analyzers|Generating Complex Code Analyzers from Natural Language Questions]]
 3. **Social discourse around papers** — an online system that retrieves and labels relevant
    social media discussion to enrich how researchers read literature →
    [[../publications/beyond-the-page|Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions]]

@@ -10,8 +10,7 @@ tags: [chemistry, dft, machine-learning-potentials, materials]
 **Full title:** ReaxFF Parameter Set for Boron Clusters and Icosahedral Boron Crystals:
 Comparison with Density Functional Theory and Machine-Learning Potentials
 
-**Authors:** Amin Ahmadisharaf, Adri C. T. van Duin, Bin Liu, Dylan Evans, **Sadra Sabouri**,
-Jeffrey Comer
+**Authors:** A Ahmadisharaf, ACT van Duin, B Liu, D Evans, **S Sabouri**, J Comer
 **Venue:** The Journal of Physical Chemistry C (JPCC), 2025
 
 ## Summary

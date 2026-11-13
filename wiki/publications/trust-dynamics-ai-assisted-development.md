@@ -7,7 +7,7 @@ venue: ICSE
 tags: [software-engineering, trust, hci, mixed-methods]
 ---
 
-**Authors:** **Sadra Sabouri**, Philipp Eibl, Xinyi Zhou, Morteza Ziyadi, Nenad Medvidovic, Lars Lindemann, Souti Chattopadhyay
+**Authors:** **S Sabouri**, P Eibl, X Zhou, M Ziyadi, N Medvidovic, L Lindemann, S Chattopadhyay
 **Venue:** IEEE/ACM International Conference on Software Engineering (ICSE), 2025 — accepted January 2025
 **Method:** survey of 29 developers, plus observation of 10 developers coding with AI
 

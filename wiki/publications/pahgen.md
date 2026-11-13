@@ -7,7 +7,7 @@ venue: LoResMT@NAACL
 tags: [nlp, pahlavi, translation, low-resource, llm]
 ---
 
-**Authors:** Farhan Farsi, Parnian Fazel, Farzaneh Goshtasb, Nadia Hajipour, **Sadra Sabouri**, Ehsaneddin Asgari, Hossein Sameti
+**Authors:** F Farsi, P Fazel, F Goshtasb, N Hajipour, **S Sabouri**, E Asgari, H Sameti
 **Venue:** Eighth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT) at NAACL, 2025
 
 ## Summary

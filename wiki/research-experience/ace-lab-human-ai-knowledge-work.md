@@ -20,8 +20,8 @@ engineering, is the level the findings generalise at.
 3. **Project-level agents** — 16 developers using Cursor-like tools, identifying integration
    challenges and opportunities → [[../publications/ai-assisted-codebase-generation|Exploring the Challenges and Opportunities of AI-assisted Codebase Generation]]
 4. **Interactive code querying** — an educational prototype letting programmers query source
-   code, evaluated with 20 software engineers →
-   [[../publications/synthesizing-program-analyzers|Synthesizing Program Analyzers to Help Programmers Answer Questions About Code]]
+   code, evaluated in a within-subject user study →
+   [[../publications/synthesizing-program-analyzers|Generating Complex Code Analyzers from Natural Language Questions]]
 5. **Agents in spreadsheets** — how users audit and retain control over AI agents acting inside
    a spreadsheet, taking the oversight question to a population that does not write code →
    [[../publications/auditing-ai-agents-spreadsheets|Auditing and Controlling AI Agent Actions in Spreadsheets]]
@@ -31,3 +31,4 @@ Partially funded by the **Amazon AGI Center**.
 ## Related
 [[ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — the lab.
 [[ace-lab-ai-decision-making|Thread: AI Aid for Decision Making]] — the same oversight question where the output is advice rather than an artifact.
+[[../publications/over-compliant-refactoring|Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents]]: coding agents that keep complying past the point of usefulness.

@@ -10,8 +10,7 @@ tags: [machine-learning, hydrology, sample-size, xgboost]
 **Full title:** Representative sample size for estimating saturated hydraulic conductivity via
 machine learning: A proof-of-concept study
 
-**Authors:** Amin Ahmadisharaf, Reza Nematirad, **Sadra Sabouri**, Yakov Pachepsky,
-Behzad Ghanbarian
+**Authors:** A Ahmadisharaf, R Nematirad, **S Sabouri**, Y Pachepsky, B Ghanbarian
 **Venue:** Water Resources Research (AGU), 2024
 
 ## Summary

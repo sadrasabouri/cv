@@ -9,7 +9,8 @@ tags: [advisor, usc]
 **Relationship:** PhD advisor; runs the Adaptive Computing Experience (ACE) Lab
 
 Co-author on the majority of the HCI work — trust dynamics, cognitive biases, codebase
-generation, reflection prompting, advice styles, therapeutic AI, spreadsheet agents.
+generation, reflection prompting, advice styles, therapeutic AI, spreadsheet agents, FlashScript, over-compliant refactoring in coding agents,
+and SE research in the LLM era.
 
 ## Related
 [[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — the lab.
