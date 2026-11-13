@@ -414,3 +414,25 @@ and sits less naturally with an open one. Left as-is rather than changed silentl
   names.
 - OpenSciLab status confirmed `completed` by Sadra; gap closed.
 - `index.md`: new entries added, IUI paper moved to the top, 2026 block re-sorted.
+
+## [2026-11-13] ingest | GO 2027 Winter Meeting abstract: AI-assisted HPV vaccine counseling
+
+- New page: `publications/ai-assisted-hpv-vaccine-counseling` (accepted abstract, GO 2027 Winter
+  Meeting). Authors T Ramirez, S Sabouri, K Shenoy, A Jiang, M Martinez, Z Chavez,
+  S Chattopadhyay, J May, M Guo, per Sadra. Summary limited to what the title states.
+- Linked from: `references/jonathan-may`, `references/souti-chattopadhyay`,
+  `research-experience/cute-lab-name`, `research-experience/ace-lab`, `profile/research-agenda`,
+  `publications/anthropomorphism-sycophancy-therapeutic-ai`.
+- `index.md`: added at the top of Publications (2027).
+
+## [2026-11-13] ingest | SGO 2027 HPV counseling abstract: findings and poster acceptance
+
+- `publications/ai-assisted-hpv-vaccine-counseling`: venue corrected from "GO" to "SGO" Winter
+  Meeting per the acceptance email; summary rewritten from the abstract's results; added
+  Participants and patient/provider Findings sections (18 patients, knowledge 2.5 → 3.5 of 6,
+  satisfaction 4.23/5, SUS 66, trust 3.46, provider strain and concern shifts, unchanged time).
+- New page: `talks/sgo-2027-hpv-counseling-poster` (Poster Session, January 21, 2027, Lake Louise,
+  Canada; meeting January 21–23, 2027).
+- `index.md`: publication summary refreshed; poster added under Talks.
+- `profile/research-agenda`, `research-experience/ace-lab`: link annotations updated.
+- Dropped from the acceptance email: the speaker-portal deadline and the SGO contact email.

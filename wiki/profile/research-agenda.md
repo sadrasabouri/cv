@@ -48,3 +48,4 @@ Sadra is open to hearing from people working on adjacent problems.
 [[../publications/ai-assisted-codebase-generation|Exploring the Challenges and Opportunities of AI-assisted Codebase Generation]] — the same domain, on building software by prompting rather than writing.
 [[../publications/eli-why|ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations]] — the same-question-different-background domain, measured as a benchmark.
 [[../publications/beyond-the-page|Beyond the Page: Enriching Academic Paper Reading with Social Media Discussions]] — an integration point studied by building the interface rather than surveying it.
+[[../publications/ai-assisted-hpv-vaccine-counseling|AI-Assisted HPV Vaccine Counseling in a Safety-Net Gynecologic Oncology Clinic: Effects on Provider Burden and Patient Knowledge]] — a chatbot brought into vaccine counseling in a gynecologic oncology clinic, measured on both patients and providers.

@@ -17,3 +17,4 @@ themselves affected by the traits they are meant to assess.
 ## Related
 [[../profile/research-agenda|Research Agenda]] — covers the "patients navigating conflicting medical advice" domain.
 [[../references/sepand-haghighi|Sepand Haghighi]] — co-author.
+[[ai-assisted-hpv-vaccine-counseling|AI-Assisted HPV Vaccine Counseling in a Safety-Net Gynecologic Oncology Clinic: Effects on Provider Burden and Patient Knowledge]] — the other health-care work, with the same two advisors as co-authors.

@@ -14,3 +14,4 @@ and SE research in the LLM era.
 
 ## Related
 [[../research-experience/ace-lab|USC — Adaptive Computing Experience (ACE) Lab]] — the lab.
+[[../publications/ai-assisted-hpv-vaccine-counseling|AI-Assisted HPV Vaccine Counseling in a Safety-Net Gynecologic Oncology Clinic: Effects on Provider Burden and Patient Knowledge]] — co-authored abstract.

@@ -26,3 +26,4 @@ thread were funded by the **Amazon AGI Center**.
 [[../profile/research-agenda|Research Agenda]] — the question these threads serve.
 [[../references/souti-chattopadhyay|Souti Chattopadhyay]] — PI.
 [[cute-lab-name|USC ISI — CUTE LAB NAME]] — the secondary lab affiliation.
+[[../publications/ai-assisted-hpv-vaccine-counseling|AI-Assisted HPV Vaccine Counseling in a Safety-Net Gynecologic Oncology Clinic: Effects on Provider Burden and Patient Knowledge]] — clinical chatbot pilot co-authored with Souti Chattopadhyay.
